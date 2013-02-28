@@ -1,0 +1,15 @@
+#BurgerZ's jBART settings file
+#Mon Dec 24 11:14:55 FET 2012
+rom.global.decode.sources=false
+rom.global.decompile.all=false
+rom.global.download.extra=true
+rom.global.locale=en_US
+rom.global.sign=true
+rom.global.timezone=Europe/Minsk
+rom.miui.v4.add3WayRebot=true
+rom.miui.v4.zenk.mode=true
+single.install_frameworks=true
+single.sign_file=false
+system.baksmali.external=true
+system.baksmali.jumbo=false
+system.delete.work.dir=false

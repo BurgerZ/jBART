@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<locales>
+  <locale id="Russian (ru_RU)">ru_RU</locale>
+  <locale id="English (en_US)">en_US</locale>
+  <locale id="Ukrainian (uk_UA)">uk_UA</locale>
+  <locale id="Polish (pl_PL)">pl_PL</locale>
+  <locale id="Korean (ko_KR)">ko_KR</locale>
+  <locale id="German (de_DE)">de_DE</locale>
+  <locale id="Hungarian (hu_HU)">hu_HU</locale>
+  <locale id="Slovak (sk_SK)">sk_SK</locale>
+  <locale id="Czech (cs_CZ)">cs_CZ</locale>
+</locales>
