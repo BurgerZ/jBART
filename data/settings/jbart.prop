@@ -1,5 +1,5 @@
 #BurgerZ's jBART settings file
-#Mon Dec 24 11:14:55 FET 2012
+#Fri Mar 01 04:35:20 VET 2013
 rom.global.decode.sources=false
 rom.global.decompile.all=false
 rom.global.download.extra=true
