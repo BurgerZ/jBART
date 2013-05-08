@@ -1,8 +1,10 @@
 #BurgerZ's jBART settings file
-#Wed Apr 03 09:17:59 VET 2013
+#Wed May 08 08:59:52 VET 2013
 rom.global.decode.sources=false
 rom.global.decompile.all=false
 rom.global.download.extra=true
+rom.global.download.main=true
+rom.global.download.patches=true
 rom.global.locale=en_US
 rom.global.sign=true
 rom.global.timezone=Europe/Minsk
