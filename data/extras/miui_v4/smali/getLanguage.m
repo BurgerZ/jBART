@@ -1,4 +1,4 @@
-.method public getLanguage2()I
+.method public getLanguage()I
     .locals 5
 
     .prologue
