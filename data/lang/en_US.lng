@@ -1,0 +1,105 @@
+#left menu
+menu_title_deodexer=Deodexer
+menu_title_rom_file=ROM File
+menu_title_translation_parser=Translation parser
+menu_title_patches=Patches
+menu_title_single_file=Single File
+menu_title_ota_creator=OTA creator
+menu_title_settings=Settings
+menu_title_logs=Logs
+menu_title_about=About
+
+#deodexer panel
+deodexer_rom_file=ROM File
+deodexer_select_rom_file=Select ROM file (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_system_framework=Deodex /system/framework/*
+deodexer_deodex_system_app=Deodex /system/app/*
+deodexer_deodex_system_priv_app=Deodex /system/priv-app/*
+deodexer_use_inline_txt=Use inline.txt methods table (-T option). Useful for MT6592 roms
+deodexer_use_inline_txt_description=<html>You can use deodexerant binary to get your own inline.txt from your device <br>(then just copy inline.txt to the jbart settings directory)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=ROM type
+rom_file_rom_file=ROM File
+rom_file_select_rom_file=Select ROM file (*.zip)
+rom_file_repo_main=Main
+rom_file_repo_extra=Extra
+rom_file_repo_xml_patches=XML Patch
+rom_file_auto_deodex=Auto Deodex ROM
+rom_file_auto_compile=Auto Compile ROM
+rom_file_btn_compile=Compile
+rom_file_btn_recompile=Recompile
+rom_file_btn_decompile=Decompile
+rom_file_btn_patch=Patch files
+rom_file_btn_build_zip=Build zip
+rom_file_btn_extract_zip=Extract zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=APK Dir
+translation_parser_select_decompiled_apk_dir=Select directory with decompiled *.apk files
+translation_parser_translation_dir=Translation
+translation_parser_select_translation_dir=Select directory with translated *.apk files
+translation_parser_language=Language
+translation_parser_language_original=Original:
+translation_parser_language_translation=Translation:
+translation_parser_delete_obsolete=Delete obsolete items from translation (rebuild)
+translation_parser_delete_obsolete_description=WARNING: this option will rewrite your translation files!
+translation_parser_btn_parse=Parse
+
+#patches panel
+
+#single file panel
+single_file_file=File
+single_file_select_file=Select apk or jar file (or ROM zip to sign)
+single_file_decompile_smali=Decompile Sources (smali)
+single_file_install_frames=Install frameworks (place these apk's at data/frameworks_single)
+single_file_use_original_manifest=Use original AndroidManifest.xml
+single_file_sign_after_compile=Sign file after compiling (for non-system apps, or keep original one)
+single_file_auto_patch=Auto apply patches at decompiling phase (from data/patches dir)
+single_file_btn_patch=Patch files
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Sign
+single_file_btn_decompile=Decompile
+single_file_btn_compile=Compile
+
+#ota creator panel
+ota_creator_old_rom=Old ROM
+ota_creator_select_old_rom=Select old ROM file (*.zip)
+ota_creator_new_rom=New ROM
+ota_creator_select_new_rom=Select new ROM file (*.zip)
+ota_creator_out_folder=Out folder
+ota_creator_select_out_folder=Select output folder
+ota_creator_make_ota=Make OTA
+
+#settings panel
+settings_language=Language
+settings_timezone=TimeZone
+settings_lang_tz_description=This values will be written to the /system/build.prop file
+settings_alt_rom_name=Alternative out ROM naming
+settings_alt_rom_name_description=<html>Checked: load naming rules from <b>data/settings/alt_rom_name.conf</b><p>Unchecked: "bz_"+original_rom_name</html>
+settings_repo_download_main=Download Main translation repository
+settings_repo_download_extra=Download Extra repository (file replacements)
+settings_repo_download_xml_patches=Download XML Patches repository
+settings_repo_redownload=Redownload repositories (each time)
+settings_decompile_all_apks=Decompile all apk's in ROM
+settings_decompile_smali_all_apks=Decompile src of each apk in ROM (smali)
+settings_zipalign=Zipalign apks/jars (important for OTA)
+settings_sign_rom=Sign ROM file after compiling
+settings_delete_prj_directory=Delete project directory after compiling
+settings_interface_language=<html>Interface<br>language
+
+#about panel
+about_author=Author:
+about_graphics=Graphics:
+about_design_components=Java components:
+about_tests_and_support=Tests and support:
+about_libraries=Libraries and parts of source code:
+about_donation=Donations:
+
+#common
+common_content_blocked=Content Blocked!
+common_no_rights=You have no rights to see hidden content
