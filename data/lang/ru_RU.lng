@@ -34,6 +34,7 @@ rom_file_auto_compile=Автокомпиляция прошивки
 rom_file_btn_compile=Компиляция
 rom_file_btn_recompile=Рекомпиляция
 rom_file_btn_decompile=Декомпиляция
+rom_file_btn_sign=Подписать
 rom_file_btn_patch=Патч
 rom_file_btn_build_zip=Запаковать
 rom_file_btn_extract_zip=Распаковать
@@ -48,6 +49,8 @@ translation_parser_language_original=Оригинал:
 translation_parser_language_translation=Перевод:
 translation_parser_delete_obsolete=Удалить устаревшие строки из перевода
 translation_parser_delete_obsolete_description=ВНИМАНИЕ: эта опция перезапишет ваши файлы перевода!
+translation_parser_skipnotindefault=Пропускать ресурсы, которых нет в оригинале ("not in default")
+translation_parser_skipnotindefault_description=<html><b>Включено:</b> все переведенные ресурсы, которых нет в оригинальных файлах будут игнорироваться при парсинге<br><b>Выключено:</b> при парсинге будут игнорироваться только ресурсы, указанные в файле <b>translation.parser.skipnotindefault.conf</b>
 translation_parser_btn_parse=Парсить
 
 #patches panel

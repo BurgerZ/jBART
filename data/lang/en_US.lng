@@ -34,6 +34,7 @@ rom_file_auto_compile=Auto Compile ROM
 rom_file_btn_compile=Compile
 rom_file_btn_recompile=Recompile
 rom_file_btn_decompile=Decompile
+rom_file_btn_sign=Sign
 rom_file_btn_patch=Patch files
 rom_file_btn_build_zip=Build zip
 rom_file_btn_extract_zip=Extract zip
@@ -48,6 +49,8 @@ translation_parser_language_original=Original:
 translation_parser_language_translation=Translation:
 translation_parser_delete_obsolete=Delete obsolete items from translation (rebuild)
 translation_parser_delete_obsolete_description=WARNING: this option will rewrite your translation files!
+translation_parser_skipnotindefault=Skip all "not in default" items (items that are not in original files)
+translation_parser_skipnotindefault_description=<html><b>Checked:</b> all translated items that are not in original xml files will be skipped (will not be added to translation or parser output)<br><b>Unchecked:</b> only items from config <b>translation.parser.skipnotindefault.conf</b> will be skipped
 translation_parser_btn_parse=Parse
 
 #patches panel
