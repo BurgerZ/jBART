@@ -1,0 +1,105 @@
+#left menu
+menu_title_deodexer=Деодексер
+menu_title_rom_file=Файл прошивки
+menu_title_translation_parser=Парсер перекладу
+menu_title_patches=Патчі
+menu_title_single_file=Одиночні файли
+menu_title_ota_creator=OTA оновлення
+menu_title_settings=Налаштування
+menu_title_logs=Журнал (лог)
+menu_title_about=Про програму
+
+#deodexer panel
+deodexer_rom_file=Прошивка
+deodexer_select_rom_file=Виберіть файл прошивки (*.zip)
+deodexer_rom_api=
+deodexer_deodex_system_framework=Деодексувати /system/framework/*
+deodexer_deodex_system_app=Деодексувати /system/app/*
+deodexer_deodex_system_priv_app=Деодексувати /system/priv-app/*
+deodexer_use_inline_txt=Викристовувати inline.txt (опція -T). Увімкніть для MT6592
+deodexer_use_inline_txt_description=<html>Ви можете використовувати deodexerant (з теки data/tools/arm) для отримання таблиці методів inline.txt з вашого телефону<br>(потім просто скопіюйте inline.txt до теки settings jbart)
+deodexer_baksmali=
+deodexer_smali=
+deodexer_btn_deodex=Деодекс
+
+#rom file panel
+rom_file_rom_type=Тип
+rom_file_rom_file=Прошивка
+rom_file_select_rom_file=Виберіть файл прошивки (*.zip)
+rom_file_repo_main=Переклад
+rom_file_repo_extra=Екстра
+rom_file_repo_xml_patches=Патчі XML
+rom_file_auto_deodex=Автодеодекс прошивки
+rom_file_auto_compile=Автокомпіляція прошивки
+rom_file_btn_compile=Компіляція
+rom_file_btn_recompile=Рекомпіляція
+rom_file_btn_decompile=Декомпіляція
+rom_file_btn_patch=Патч
+rom_file_btn_build_zip=Стиснути
+rom_file_btn_extract_zip=Видобути
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=Тека з apk
+translation_parser_select_decompiled_apk_dir=Виберіть теку з декомпільованими *.apk
+translation_parser_translation_dir=Переклад
+translation_parser_select_translation_dir=Виберіть теку з перекладеними *.apk
+translation_parser_language=Мова
+translation_parser_language_original=Оригінал:
+translation_parser_language_translation=Переклад:
+translation_parser_delete_obsolete=Видалити застарілі рядки з перекладу
+translation_parser_delete_obsolete_description=УВАГА: дана опція перезапише ваши файли перекладу!
+translation_parser_btn_parse=Парсити
+
+#patches panel
+
+#single file panel
+single_file_file=Файл
+single_file_select_file=Виберіть apk або jar файл (або zip для підпису)
+single_file_decompile_smali=Декомпільований вихідний код (smali)
+single_file_install_frames=Встановлювати фреймворкі (з теки data/frameworks_single)
+single_file_use_original_manifest=Використовувати оригінальний AndroidManifest.xml
+single_file_sign_after_compile=Підписати після компіляції (не-системні додатки)
+single_file_auto_patch=Автоматично патчити при декомпіляції (з data/patches)
+single_file_btn_patch=Патч
+single_file_btn_deodex=Деодекс
+single_file_btn_sign=Підписати
+single_file_btn_decompile=Декомпіляція
+single_file_btn_compile=Компіляція
+
+#ota creator panel
+ota_creator_old_rom=Старий zip
+ota_creator_select_old_rom=Виберіть файл старої прошивки (*.zip)
+ota_creator_new_rom=Новий zip
+ota_creator_select_new_rom=Виберіть файл нової прошивки (*.zip)
+ota_creator_out_folder=Тека
+ota_creator_select_out_folder=Виберіть теку, куди зберігати ОТА
+ota_creator_make_ota=Створити ОТА
+
+#settings panel
+settings_language=Мова
+settings_timezone=Час. пояс
+settings_lang_tz_description=Значення цих полів (мова та часовий пояс) будуть записані до build.prop
+settings_alt_rom_name=Альтернативне им\'я вихідного файлу прошивки
+settings_alt_rom_name_description=<html>Увімкнено: завантаження правил найменування з файлу <b>data/settings/alt_rom_name.conf</b><p>Вимкнено: "bz_"+original_rom_name</html>
+settings_repo_download_main=Завантажувати основний репозиторій перекладу
+settings_repo_download_extra=Завантажувати екстра репозиторій (файли заміни)
+settings_repo_download_xml_patches=Завантажувати репозиторій з патчами для XML
+settings_repo_redownload=Завантажувати репозиторії кожного разу заново
+settings_decompile_all_apks=Декомпилювати всі apk файли з прошивки
+settings_decompile_smali_all_apks=Декомпилювати smali для всіх файлів прошивки
+settings_zipalign=Оптимізувати apk/jar файли (zipalign). Важливо для ОТА
+settings_sign_rom=Підписати файл прошивки після компіляції
+settings_delete_prj_directory=Видалити теку проекту після компіляції
+settings_interface_language=<html>Мова<br>інтерфейсу
+
+#about panel
+about_author=Автор:
+about_graphics=Графіка:
+about_design_components=Компоненти java:
+about_tests_and_support=Тести та підтримка:
+about_libraries=Використані бібліотекі та частини вихідного коду:
+about_donation=Пожертви:
+
+#common
+common_content_blocked=Немає доступу!
+common_no_rights=Ви не маєте прав для перегляду прихованого вмісту.
