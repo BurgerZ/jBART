@@ -1,0 +1,110 @@
+//jBART-master v2.0.0a hungarian translate: gidano | gidano.hu
+
+#left menu
+menu_title_deodexer=Deodex
+menu_title_rom_file=ROM fájl
+menu_title_translation_parser=Fordítás elemző
+menu_title_patches=Patch fájlok
+menu_title_single_file=Egyedüli fájl
+menu_title_ota_creator=OTA készítés
+menu_title_settings=Beállítások
+menu_title_logs=Naplók
+menu_title_about=Rólunk
+
+#deodexer panel
+deodexer_rom_file=ROM fájl
+deodexer_select_rom_file=Válaszd ki a ROM fájlt (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_system_framework=Deodex /system/framework/*
+deodexer_deodex_system_app=Deodex /system/app/*
+deodexer_deodex_system_priv_app=Deodex /system/priv-app/*
+deodexer_use_inline_txt=Az inline.txt módszertábláit használja (-T opció). MT6592 ROM-hoz hasznos
+deodexer_use_inline_txt_description=<html>Használhatod a deodexerant binary-t (eszköz saját inline.txt fájl)<br>(ekkor csak másold az inline.txt-t a jbart data/settings könyvtárba)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=ROM típus
+rom_file_rom_file=ROM fájl
+rom_file_select_rom_file=Válaszd ki a ROM fájlt (*.zip)
+rom_file_repo_main=Alap
+rom_file_repo_extra=Extra
+rom_file_repo_xml_patches=XML Patch
+rom_file_auto_deodex=ROM Auto Deodex
+rom_file_auto_compile=ROM Auto Összeállítás
+rom_file_btn_compile=Összeállítás
+rom_file_btn_recompile=Újraösszeállítás
+rom_file_btn_decompile=Visszafejtés
+rom_file_btn_sign=Szignózás
+rom_file_btn_patch=Patch fájlok
+rom_file_btn_build_zip=Zip Összeállítás
+rom_file_btn_extract_zip=Zip Kicsomagolás
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=APK
+translation_parser_select_decompiled_apk_dir=A visszafejtett *.apk fájlok mappája
+translation_parser_translation_dir=Fordítás
+translation_parser_select_translation_dir=A lefordított *.apk fájlok mappája
+translation_parser_language=Nyelv
+translation_parser_language_original=Eredeti:
+translation_parser_language_translation=Fordított:
+translation_parser_delete_obsolete=Elavult elemek törlése a fordításból (újraépítés)
+translation_parser_delete_obsolete_description=FIGYELEM: ez a lehetőség átírja a fordítási fájlokat!
+translation_parser_skipnotindefault=Kihagy minden "nem alapértelmezett" tételt
+translation_parser_skipnotindefault_description=<html><b>Bejelölve:</b> minden lefordított elem, amelyet nem tartalmaz az eredeti xml fájl, kimarad (nem kerül a fordításba vagy az elemzési kimenetbe)<br><b>Jelöletlen:</b> csak a <b>translation.parser.skipnotindefault.conf</b>-ban konfigurált elemek kihagyása
+translation_parser_btn_parse=Elemzés
+
+#patches panel
+
+#single file panel
+single_file_file=Fájl
+single_file_select_file=Apk vagy jar fájl (vagy ROM zip szignózás)
+single_file_decompile_smali=Források visszafejtése (smali)
+single_file_install_frames=Framework(ök) telepítése (ezek helye: data/frameworks_single)
+single_file_use_original_manifest=Az eredeti AndroidManifest.xml használata
+single_file_sign_after_compile=Összeállítás után szignóz (nem rendszerappot, v. eredetit megtart)
+single_file_auto_patch=Patch aut. alk. visszafejtési fázisban (data/patches mappából)
+single_file_btn_patch=Fájl patch
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Szignó
+single_file_btn_decompile=Visszafejt
+single_file_btn_compile=Összeállít
+
+#ota creator panel
+ota_creator_old_rom=Régi ROM
+ota_creator_select_old_rom=Régi ROM fájl (*.zip)
+ota_creator_new_rom=Új ROM
+ota_creator_select_new_rom=Ú ROM fájl (*.zip)
+ota_creator_out_folder=Mappája
+ota_creator_select_out_folder=Válassz kimenő mappát
+ota_creator_make_ota=OTA létrehozás
+
+#settings panel
+settings_language=Nyelv
+settings_timezone=Időzóna
+settings_lang_tz_description=Ez az érték lesz írva a /system/build.prop fájlba
+settings_alt_rom_name=Kész ROM alternatív elnevezése
+settings_alt_rom_name_description=<html>Bejelölve: átnevezési szabályok betöltése innen:  <b>data/settings/alt_rom_name.conf</b><p>Jelöletlen: "bz_"+eredeti_rom_név</html>
+settings_repo_download_main=Alap fordítási repository letöltés
+settings_repo_download_extra=Extra repository letöltés (fájl cserék)
+settings_repo_download_xml_patches=XML Patch repository letöltés
+settings_repo_redownload=Repository ismételt letöltése (minden alkalommal)
+settings_decompile_all_apks=ROM - összes apk fájl visszafejtése
+settings_decompile_smali_all_apks=ROM - összes apk fájl forrásának visszafejtése (smali)
+settings_zipalign=Apk/jar Zipalign (OTA készítéshez fontos)
+settings_sign_rom=ROM fájl szignózása összeállítás után
+settings_delete_prj_directory=A projekt könyvtár törlése összeállítás után
+settings_interface_language=<html>Felület<br>nyelve
+
+#about panel
+about_author=Szerző:
+about_graphics=Grafika:
+about_design_components=Java komponensek:
+about_tests_and_support=Tesztek és support:
+about_libraries=Forráskód library és részek:
+about_donation=Adományok:
+
+#common
+common_content_blocked=Blokkolt Tartalom!
+common_no_rights=Nem vagy jogosult a rejtett tartalom megtekintésére

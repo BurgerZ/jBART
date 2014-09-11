@@ -5,6 +5,7 @@ menu_title_translation_parser=Translation parser
 menu_title_patches=Patches
 menu_title_single_file=Single File
 menu_title_ota_creator=OTA creator
+menu_title_kernel_tools=Kernel Tools
 menu_title_settings=Settings
 menu_title_logs=Logs
 menu_title_about=About
@@ -77,6 +78,12 @@ ota_creator_select_new_rom=Select new ROM file (*.zip)
 ota_creator_out_folder=Out folder
 ota_creator_select_out_folder=Select output folder
 ota_creator_make_ota=Make OTA
+
+#kernel tools panel
+kerneltools_kernel_file=Kernel File
+kerneltools_select_kernel_file=Select kernel file (boot.img, recovery.img)
+kerneltools_btn_pack=Pack
+kerneltools_btn_unpack=Unpack
 
 #settings panel
 settings_language=Language
