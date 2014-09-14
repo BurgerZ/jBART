@@ -1,9 +1,9 @@
 #left menu
 menu_title_deodexer=Deodexar
 menu_title_rom_file=Archivo ROM
-menu_title_translation_parser=Traducción
+menu_title_translation_parser=Traduccion
 menu_title_patches=Parches
-menu_title_single_file=Sólo un archivo
+menu_title_single_file=Solo un archivo
 menu_title_ota_creator=Creador de OTA
 menu_title_kernel_tools=Herramientas Kernel
 menu_title_settings=Ajustes
@@ -17,7 +17,7 @@ deodexer_rom_api=API de la ROM
 deodexer_deodex_system_framework=Deodexar /system/framework/*
 deodexer_deodex_system_app=Deodexar /system/app/*
 deodexer_deodex_system_priv_app=Deodexar /system/priv-app/*
-deodexer_use_inline_txt=Use inline.txt methods table (-T option). Útil para las roms MT6592
+deodexer_use_inline_txt=Use inline.txt methods table (-T option). Util para las roms MT6592
 deodexer_use_inline_txt_description=<html>Puedes usar el binario deodexerant para obtener su propio inline.txt <br>(Copielo en el directorio settings de jbart)
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
@@ -43,15 +43,15 @@ rom_file_btn_extract_zip=Extraer zip
 #translation parser panel
 translation_parser_decompiled_apk_dir=Directorio APK
 translation_parser_select_decompiled_apk_dir=Seleccione el directorio con los archivos *.apk decompilados
-translation_parser_translation_dir=Traducción
+translation_parser_translation_dir=Traduccion
 translation_parser_select_translation_dir=Seleccione el directorio con los archivos *.apk traducidos
 translation_parser_language=Idioma
 translation_parser_language_original=Original:
-translation_parser_language_translation=Traducción:
-translation_parser_delete_obsolete=Eliminar las cadenas de texto obsoletas de la traducción (reconstruir)
-translation_parser_delete_obsolete_description=CUIDADO: ¡Esta opción rescribirá tus archivos de traducción!
-translation_parser_skipnotindefault=Saltarse todas las cadenas de texto traducidas que no estén en los archivos de la traducción original
-translation_parser_skipnotindefault_description=<html><b>Activado:</b>Todas las cadenas de texto que no estén en el xml original serán saltadas <br><b>Desactivado:</b> Sólo las cadenas de texto indicadas en <b>translation.parser.skipnotindefault.conf</b> serán saltadas
+translation_parser_language_translation=Traduccion:
+translation_parser_delete_obsolete=Eliminar las cadenas de texto obsoletas de la traduccion (reconstruir)
+translation_parser_delete_obsolete_description=CUIDADO: Esta opcion rescribira tus archivos de traduccion!
+translation_parser_skipnotindefault=Saltarse todas las cadenas de texto traducidas que no esten en los archivos de la traduccion original
+translation_parser_skipnotindefault_description=<html><b>Activado:</b>Todas las cadenas de texto que no esten en el xml original seran saltadas <br><b>Desactivado:</b> Solo las cadenas de texto indicadas en <b>translation.parser.skipnotindefault.conf</b> seran saltadas
 translation_parser_btn_parse=Analizar
 
 #patches panel
@@ -62,8 +62,8 @@ single_file_select_file=Seleccione el archivo apk o jar (O el archivo zip de la 
 single_file_decompile_smali=Decompilar fuentes (smali)
 single_file_install_frames=Instalar frameworks (Guarde los apk's en el directorio data/frameworks_single)
 single_file_use_original_manifest=Usar el AndroidManifest.xml original
-single_file_sign_after_compile=Firmar el archivo después de compilar (Para las aplicaciones que no son de /system/app, o mantener las originales)
-single_file_auto_patch=Auto aplicar los parches en la fase de decompilación (Desde el directorio data/patches)
+single_file_sign_after_compile=Firmar el archivo despues de compilar (Para las aplicaciones que no son de /system/app, o mantener las originales)
+single_file_auto_patch=Auto aplicar los parches en la fase de decompilacion (Desde el directorio data/patches)
 single_file_btn_patch=Parchear archivos
 single_file_btn_deodex=Deodexar
 single_file_btn_sign=Firmar
@@ -88,18 +88,18 @@ kerneltools_btn_unpack=Desempaquetar
 #settings panel
 settings_language=Idioma
 settings_timezone=Zona horaria
-settings_lang_tz_description=Estos valores se escribirán en el archivo /system/build.prop
+settings_lang_tz_description=Estos valores se escribiran en el archivo /system/build.prop
 settings_alt_rom_name=Nombre alternativo para la ROM
 settings_alt_rom_name_description=<html>Activado: carga las reglas marcadas del archivo <b>data/settings/alt_rom_name.conf</b><p>Desactivado: "bz_"+nombre_original_rom</html>
-settings_repo_download_main=Descargar el repositorio principal de traduccionesDownload Main translation repository
-settings_repo_download_extra=Descargar el repositorio de extras (se reemplazarán archivos)
+settings_repo_download_main=Descargar el repositorio principal de traducciones
+settings_repo_download_extra=Descargar el repositorio de extras (se reemplazaran archivos)
 settings_repo_download_xml_patches=Descargar el repositorio de parches XML
 settings_repo_redownload=Volver a descargar los repositorios(cada vez)
 settings_decompile_all_apks=Decompilar todas las apk's de la ROM
 settings_decompile_smali_all_apks=Decompilar las fuentes de cada apk en la ROM(smali)
 settings_zipalign=Zipalign apks/jars (importante para OTA)
-settings_sign_rom=Firmar ROM después de compilar
-settings_delete_prj_directory=Eliminar el directorio del proyecto actual después de compilar
+settings_sign_rom=Firmar ROM despues de compilar
+settings_delete_prj_directory=Eliminar el directorio del proyecto actual despues de compilar
 settings_interface_language=<html>Interfaz<br>Idioma
 
 #about panel
@@ -107,7 +107,7 @@ about_author=Autor:
 about_graphics=Diseño:
 about_design_components=Componentes Java:
 about_tests_and_support=Soporte:
-about_libraries=Librerías y parte del código fuente:
+about_libraries=Librerias y parte del codigo fuente:
 about_donation=Donaciones:
 
 #common
