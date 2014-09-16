@@ -1,0 +1,115 @@
+#left menu
+menu_title_deodexer=Deodexer
+menu_title_rom_file=ROM Datoteka
+menu_title_translation_parser=Parser za prijevod
+menu_title_patches=Zakrpe
+menu_title_single_file=Jedna datoteka
+menu_title_ota_creator=OTA Kreator
+menu_title_kernel_tools=Kernel Alati
+menu_title_settings=Postavke
+menu_title_logs=Zapisi
+menu_title_about=O programu
+
+#deodexer panel
+deodexer_rom_file=ROM Datoteka
+deodexer_select_rom_file=Odaberi ROM datoteku (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_system_framework=Deodex /system/framework/*
+deodexer_deodex_system_app=Deodex /system/app/*
+deodexer_deodex_system_priv_app=Deodex /system/priv-app/*
+deodexer_use_inline_txt=Koristite inline.txt metodu tablice (-T Opcija). Korisno za MT6592 Romove
+deodexer_use_inline_txt_description=<html>Možete koristiti deodexerant binarnu knjižnicu za dobijanje inline.txt sa vašeg uređaja <br>(onda samo kopirajte  inline.txt U jBART Settings mapu)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=Vrsta ROM-a
+rom_file_rom_file=ROM Datoteka
+rom_file_select_rom_file=Odaberi ROM datoteku (*.zip)
+rom_file_repo_main=Osovno
+rom_file_repo_extra=Dodatno
+rom_file_repo_xml_patches=XML Zakrpa
+rom_file_auto_deodex=Auto Deodex ROMa
+rom_file_auto_compile=Auto Sastavljanje ROMa
+rom_file_btn_compile=Sastavi
+rom_file_btn_recompile=Ponovono sastavi
+rom_file_btn_decompile=Rastavi
+rom_file_btn_sign=Potpiši
+rom_file_btn_patch=Datoteke zakrpa
+rom_file_btn_build_zip=Napravi zip
+rom_file_btn_extract_zip=Raspakiraj zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=APK Mapa
+translation_parser_select_decompiled_apk_dir=Odaberi mapu s rastavljenim *.apk datotekama
+translation_parser_translation_dir=Prijevod
+translation_parser_select_translation_dir=Odaberi mapu s prevedenim *.apk datotekama
+translation_parser_language=Jezik
+translation_parser_language_original=Original:
+translation_parser_language_translation=Prijevod:
+translation_parser_delete_obsolete=Izbriši nepotrebne stavke prijevoda (obnovi)
+translation_parser_delete_obsolete_description=UPOZORENJE: Ova opcija će prebrisati datoteke prijevoda !
+translation_parser_skipnotindefault=Preskoči sve "Nestandardne" stavke (stavke koje nisu u orginalnim datotekama)
+translation_parser_skipnotindefault_description=<html><b>Označeno:</b> Sve prevedene stavke koje nisu u orginalnim XML datotekama će biti preskočene (neće biti dodane u prijevod i izlaz parsera)<br><b>Odznačeno:</b> Samo stavke iz config <b>translation.parser.skipnotindefault.conf</b> će biti preskočene
+translation_parser_btn_parse=Parse Radnja
+
+#patches panel
+
+#single file panel
+single_file_file=Datoteka
+single_file_select_file=Odaberi apk ili jar datoteku (ili ROM zip za potpis)
+single_file_decompile_smali=Rastavi Sources/Izvorne datoteke (smali)
+single_file_install_frames=Instaliraj frameworks (stavi ove apk u data/frameworks_single)
+single_file_use_original_manifest=Koristi original AndroidManifest.xml
+single_file_sign_after_compile=Potpiši datoteku nakon sastavljanja (za aplikacije ne-sustava, ili zadrži original)
+single_file_auto_patch=Autom. primijeni zakrpe pri fazi rastavljanja (iz data/patches mape)
+single_file_btn_patch=Datoteke zakrpa
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Potpiši
+single_file_btn_decompile=Rastavi
+single_file_btn_compile=Sastavi
+
+#ota creator panel
+ota_creator_old_rom=Stari ROM
+ota_creator_select_old_rom=Odaberi staru ROM datoteku (*.zip)
+ota_creator_new_rom=Novi ROM
+ota_creator_select_new_rom=Odaberi novu ROM datoteku (*.zip)
+ota_creator_out_folder=Izlazna mapa
+ota_creator_select_out_folder=Odaberi izlaznu mapu
+ota_creator_make_ota=Napravi OTA
+
+#kernel tools panel
+kerneltools_kernel_file=Kernel Datoteka
+kerneltools_select_kernel_file=Odaberi kernel datoteku (boot.img, recovery.img)
+kerneltools_btn_pack=Zapakiraj
+kerneltools_btn_unpack=Otpakiraj
+
+#settings panel
+settings_language=Jezik
+settings_timezone=Vremenska Zona
+settings_lang_tz_description=Ove će vrijednosti biti upisane u /system/build.prop datoteku
+settings_alt_rom_name=Alternativni naziv izlaznog ROMa
+settings_alt_rom_name_description=<html>Označeno: Učitana pravila imenovanja iz <b>data/settings/alt_rom_name.conf</b><p>Odznačeno: "bz_"+original_rom_name</html>
+settings_repo_download_main=Preuzmi osnovni repositorij prijevoda
+settings_repo_download_extra=Preuzmi dodatni repositorij (zamjena datoteka)
+settings_repo_download_xml_patches=Preuzmi repositorij XML zakrpa
+settings_repo_redownload=Ponovno preuzmi repositorije (svaki put)
+settings_decompile_all_apks=Rastavi sve apk u ROMu
+settings_decompile_smali_all_apks=Rastavi src svake apk u ROMu (smali)
+settings_zipalign=Zipalign apks/jars (važno za OTA)
+settings_sign_rom=Potpiši ROM datoteku nakon sastavljanja
+settings_delete_prj_directory=Izbriši Mapu Projekta nakon sastavljanja
+settings_interface_language=<html>Jezik<br>sučelja
+
+#about panel
+about_author=Autor:
+about_graphics=Grafika:
+about_design_components=Java komponente:
+about_tests_and_support=Test i podrška:
+about_libraries=Knjižnice i dijelovi izvornog koda:
+about_donation=Donacije:
+
+#common
+common_content_blocked=Sadržaj Blokiran!
+common_no_rights=Nemate dopuštenje vidjeti skriveni sadržaj
