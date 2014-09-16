@@ -104,12 +104,12 @@ settings_interface_language=<html>Interfaz<br>Idioma
 
 #about panel
 about_author=Autor:
-about_graphics=DiseÒo:
+about_graphics=Dise—Åo:
 about_design_components=Componentes Java:
 about_tests_and_support=Soporte:
 about_libraries=Librerias y parte del codigo fuente:
 about_donation=Donaciones:
 
 #common
-common_content_blocked=°Contenido bloqueado!
+common_content_blocked=Contenido bloqueado!
 common_no_rights=No tienes derechos para ver el contenido oculto
