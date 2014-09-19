@@ -115,3 +115,5 @@ about_donation=Donations:
 #common
 common_content_blocked=Content Blocked!
 common_no_rights=You have no rights to see hidden content
+updater_btn_download=Download
+updater_update_available=Update available!

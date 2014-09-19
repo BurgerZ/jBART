@@ -8,6 +8,7 @@ menu_title_translation_parser=Fordítás elemző
 menu_title_patches=Patch fájlok
 menu_title_single_file=Egyedüli fájl
 menu_title_ota_creator=OTA készítés
+menu_title_kernel_tools=Kernel Eszközök
 menu_title_settings=Beállítások
 menu_title_logs=Naplók
 menu_title_about=Rólunk
@@ -69,8 +70,8 @@ single_file_auto_patch=Patch aut. alk. visszafejtési fázisban (data/patches ma
 single_file_btn_patch=Fájl patch
 single_file_btn_deodex=Deodex
 single_file_btn_sign=Szignó
-single_file_btn_decompile=Visszafejt
-single_file_btn_compile=Összeállít
+single_file_btn_decompile=Visszafejtés
+single_file_btn_compile=Összeállítás
 
 #ota creator panel
 ota_creator_old_rom=Régi ROM
@@ -80,6 +81,12 @@ ota_creator_select_new_rom=Ú ROM fájl (*.zip)
 ota_creator_out_folder=Mappája
 ota_creator_select_out_folder=Válassz kimenő mappát
 ota_creator_make_ota=OTA létrehozás
+
+#kernel tools panel
+kerneltools_kernel_file=Kernel fájl
+kerneltools_select_kernel_file=Válaszd ki a kernel fájlt (boot.img, recovery.img)
+kerneltools_btn_pack=Becsomagolás
+kerneltools_btn_unpack=Kibontás
 
 #settings panel
 settings_language=Nyelv
@@ -103,7 +110,7 @@ about_author=Szerző:
 about_graphics=Grafika:
 about_design_components=Java komponensek:
 about_tests_and_support=Tesztek és support:
-about_libraries=Forráskód library és részek:
+about_libraries=Forráskód library-k és elemek:
 about_donation=Adományok:
 
 #common

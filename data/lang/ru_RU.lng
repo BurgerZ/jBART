@@ -115,3 +115,5 @@ about_donation=Пожертвование:
 #common
 common_content_blocked=Нет доступа!
 common_no_rights=У вас нет прав для просмотра скрытого содержимого.
+updater_btn_download=Скачать
+updater_update_available=Доступна новая версия!
