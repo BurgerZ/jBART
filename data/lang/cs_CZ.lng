@@ -1,0 +1,119 @@
+langpack=Čeština
+
+#left menu
+menu_title_deodexer=Deodexer
+menu_title_rom_file=Soubor ROM
+menu_title_translation_parser=Porovnat překlady
+menu_title_patches=Patche
+menu_title_single_file=Jeden soubor
+menu_title_ota_creator=Tvůrce OTA
+menu_title_kernel_tools=Nástroje Kernel
+menu_title_settings=Nastavení
+menu_title_logs=Logy
+menu_title_about=O programu
+
+#deodexer panel
+deodexer_rom_file=Soubor ROM
+deodexer_select_rom_file=Vybrat soubor ROM (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_system_framework=Deodex /system /framework/*
+deodexer_deodex_system_app=Deodex /system /app/*
+deodexer_deodex_system_priv_app=Deodex /system /priv-app/*
+deodexer_use_inline_txt=Použít inline.txt metody tabulky (-t). Vhodné pro MT6592 ROM
+deodexer_use_inline_txt_description=<html>Pro svůj vlastní inline.txt můžete použít binární deodexerant <br> (pak stačí zkopírovat inline.txt do adresáře nastavení jbart)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom panel souboru
+rom_file_rom_type=typ ROM
+rom_file_rom_file=Soubor ROM
+rom_file_select_rom_file=Vybrat soubor ROM (*.zip)
+rom_file_repo_main=Hlavní
+rom_file_repo_extra=Extra
+rom_file_repo_xml_patches=XML Patch
+rom_file_auto_deodex=Auto Deodex ROM
+rom_file_auto_compile=Auto Kompilace ROM
+rom_file_btn_compile=Kompilace
+rom_file_btn_recompile=Překompilovat
+rom_file_btn_decompile=Dekompilovat
+rom_file_btn_sign=Podpis
+rom_file_btn_patch=Patch soubory
+rom_file_btn_build_zip=Sestavit zip
+rom_file_btn_extract_zip=Extrahovat zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=APK Dir
+translation_parser_select_decompiled_apk_dir=Zvolte adresář s dekompilovanými *.apk soubory
+translation_parser_translation_dir=Překlad
+translation_parser_select_translation_dir=Zvolte adresář s přeloženými *.apk soubory
+translation_parser_language=Jazyk
+translation_parser_language_original=Originál:
+translation_parser_language_translation=Překlad:
+translation_parser_delete_obsolete=Smazat zastaralé položky z překladu (obnovit)
+translation_parser_delete_obsolete_description=VAROVÁNÍ: Tato volba přepíše vaše soubory překladu!
+translation_parser_skipnotindefault=Přeskočit všechny "není ve výchozím nastavení" položky (položky, které nejsou v původních souborech)
+translation_parser_skipnotindefault_description=<html><b>Kontrolovány:</b> budou přeskočeny všechny přeložené položky, které nejsou v originálním formátu xml souboru (nebudou přidány do překladu nebo analyzátoru výstupu)<br><b>Nekontrolovány:</b> budou přeskočeny pouze položky z config <b>translation.parser.skipnotindefault.conf</b>
+translation_parser_btn_parse=Porovnat
+
+panel #patches
+
+#single souboru panel
+single_file_file=Soubor
+single_file_select_file=Zvolte apk nebo jar soubor (nebo ROM zip k podepsání)
+single_file_decompile_smali=Dekompilovat zdroje (smali)
+single_file_install_frames=Instalovat frameworks (umístit tento apk do adresáře data/frameworks_single)
+single_file_use_original_manifest=Použít originální AndroidManifest.xml
+single_file_sign_after_compile=Podepsat soubor po kompilaci (nesystémové apps či zachování původní)
+single_file_auto_patch=Automaticky aplikovat patche při dekompilaci (z data/patches)
+single_file_btn_patch=Patch soubory
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Podepsat
+single_file_btn_decompile=Dekompilovat
+single_file_btn_compile=Kompilovat
+
+#ota tvůrce panel
+ota_creator_old_rom=Stará ROM
+ota_creator_select_old_rom=Zvolte soubor se starou ROM (*.zip)
+ota_creator_new_rom=Nová ROM
+ota_creator_select_new_rom=Zvolte soubor s novou ROM (*.zip)
+ota_creator_out_folder=Výstupní složka
+ota_creator_select_out_folder=Zvolte výstupní složku
+ota_creator_make_ota=Vytvořit OTA
+
+panel #kernel nástroje
+kerneltools_kernel_file=Soubor Kernel
+kerneltools_select_kernel_file=Vybrat soubor kernel (boot.img, recovery.img)
+kerneltools_btn_pack=Zabalení
+kerneltools_btn_unpack=Rozbalení
+
+panel #settings
+settings_language=Jazyk
+settings_timezone=Časové pásmo
+settings_lang_tz_description=Tato hodnota je zapsána do souboru /system/build.prop
+settings_alt_rom_name=Alternativní pojmenování ROM 
+settings_alt_rom_name_description=<html>Kontrolováno: nahrát pravidla pojmenování z <b>data/nastavení/alt_rom_name.conf</b><p>Nekontrolováno: "bz_"+original_rom_name</html>
+settings_repo_download_main=Stáhnout Hlavní úložiště překladu 
+settings_repo_download_extra=Stáhnout Extra úložiště (soubor náhrady)
+settings_repo_download_xml_patches=Stáhnout úložiště XML Patchů 
+settings_repo_redownload=Znovu stáhnout úložiště (pokaždé)
+settings_decompile_all_apks=Dekompilovat všechna APKčka v ROM
+settings_decompile_smali_all_apks=Dekompilovat src každé APK v ROM (smali)
+settings_zipalign=Zipalign apks/jars (důležité pro OTA)
+settings_sign_rom=Po kompilaci ROM soubor podepsat 
+settings_delete_prj_directory=Smazat adresář projektu po kompilaci
+settings_interface_language=<html>Jazyk<br>rozhraní
+
+#about panel
+about_author=Autor:
+about_graphics=Grafika:
+about_design_components=Java komponenty:
+about_tests_and_support=Testy a podpora:
+about_libraries=Knihovny a části zdrojového kódu:
+about_donation=Dary:
+
+#common
+common_content_blocked=Obsah skryt!
+common_no_rights=Nemáte oprávnění vidět skrytý obsah
+updater_btn_download=Stáhnout
+updater_update_available=Je k dispozici aktualizace!

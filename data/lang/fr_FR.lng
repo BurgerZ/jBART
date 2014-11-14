@@ -1,0 +1,120 @@
+langpack=French
+
+#left menu
+menu_title_deodexer=Deodexer
+menu_title_rom_file=Fichier ROM
+menu_title_translation_parser=Analyseur de traduction
+menu_title_patches=Packatches
+menu_title_single_file=Fichier unique
+menu_title_ota_creator=Créateur OTA
+menu_title_kernel_tools=Outils kernel
+menu_title_settings=Paramètres
+menu_title_logs=Log
+menu_title_about=A propos
+
+
+#deodexer panel
+deodexer_rom_file=Fichier ROM 
+deodexer_select_rom_file=Choisir le fichier ROM (*.zip)
+deodexer_rom_api=API ROM API
+deodexer_deodex_system_framework=Deodex /system/framework/*
+deodexer_deodex_system_app=Deodex /system/app/*
+deodexer_deodex_system_priv_app=Deodex /system/priv-app/*
+deodexer_use_inline_txt=Utilisez tableau des fonctions de inline.txt (option -T). Utile pour roms MT6592
+deodexer_use_inline_txt_description=<html>Vous pouvez utiliser un utilitaire deodexerant pour obtenir le inline.txt propre à votre appareil<br>(puis il suffit de copier inline.txt dans le répertoire de configuration de jbart)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=Type de ROM
+rom_file_rom_file=Fichier ROM
+rom_file_select_rom_file=Choisir le fichier ROM (*.zip)
+rom_file_repo_main=Principal
+rom_file_repo_extra=Extra
+rom_file_repo_xml_patches=Patch XML
+rom_file_auto_deodex=Deodex ROM Auto
+rom_file_auto_compile=Compilation Auto. ROM
+rom_file_btn_compile=Compiler
+rom_file_btn_recompile=Recompiler
+rom_file_btn_decompile=Décompiler
+rom_file_btn_sign=Signer
+rom_file_btn_patch=Fichiers Patch
+rom_file_btn_build_zip=Contruire le zip
+rom_file_btn_extract_zip=Extraire le zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=Répertoire APK
+translation_parser_select_decompiled_apk_dir=Choisir le répertoire avec les fichiers *.apk décompilés
+translation_parser_translation_dir=Traduction
+translation_parser_select_translation_dir=Choisir le répertoire avec les fichiers *.apk traduits
+translation_parser_language=Langue
+translation_parser_language_original=Original:
+translation_parser_language_translation=Traduction:
+translation_parser_delete_obsolete=Effacer les éléments obsolétes de la traduction (rebuild)
+translation_parser_delete_obsolete_description=ATTENTION: cette option va réécrire vos fichiers de traduction!
+translation_parser_skipnotindefault=Passer les éléments "pas par défaut" (ceux absents des fichiers originaux)
+translation_parser_skipnotindefault_description=<html><b>Coché:</b> Tous les éléments qui ne sont pas traduits dans les fichiers XML d'origine seront ignorés(ne sera pas ajouté à la traduction ou à la sortie du parseur)<br><b>Décoché:</b> seuls les éléments de configuration <b>translation.parser.skipnotindefault.conf</b> sera ignoré
+translation_parser_btn_parse=Parser
+
+#patches panel
+
+#single file panel
+single_file_file=Fichier
+single_file_select_file=Choisir apk ou fichier jar (ou ROM zip pour signer)
+single_file_decompile_smali=Décompiler sources (smali)
+single_file_install_frames=Installer frameworks (placez ces apk dans data/frameworks_single)
+single_file_use_original_manifest=Utiliser AndroidManifest.xml original
+single_file_sign_after_compile=Signer après compilation (pour app. non-système, ou garder l'original)
+single_file_auto_patch=Appliquer patches lors de la décompilation (à partir de data/patches)
+single_file_btn_patch=Fichiers patch
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Signer
+single_file_btn_decompile=Décompiler
+single_file_btn_compile=Compiler
+
+#ota creator panel
+ota_creator_old_rom=Ancienne ROM
+ota_creator_select_old_rom=Sélectionnez l'ancien fichier ROM (*.zip)
+ota_creator_new_rom=Nouvelle ROM
+ota_creator_select_new_rom=Sélectionnez le nouveau fichier ROM (*.zip)
+ota_creator_out_folder=Rép. sortie
+ota_creator_select_out_folder=Selectionner le répertoire de sortie
+ota_creator_make_ota=Créer OTA
+
+#kernel tools panel
+kerneltools_kernel_file=Fichier Kernel
+kerneltools_select_kernel_file=Selectionner le fichier kernel (boot.img, recovery.img)
+kerneltools_btn_pack=Pack
+kerneltools_btn_unpack=Unpack
+
+#settings panel
+settings_language=Langage
+settings_timezone=Faisceau horaire
+settings_lang_tz_description=Ces valeurs seront écrites dans le fichier /system/build.prop
+settings_alt_rom_name=Nommage alternatif ROM
+settings_alt_rom_name_description=<html>Coché: règles de nommage de charge <b>data/settings/alt_rom_name.conf</b><p>Décoché: "bz_"+nom_original_rom</html>
+settings_repo_download_main=Télécharger repository principal de traduction
+settings_repo_download_extra=Télécharger repository Extra (remplacements de fichiers)
+settings_repo_download_xml_patches=Télécharger repository Patches XML
+settings_repo_redownload=Retélécharger les repository (chaque fois)
+settings_decompile_all_apks=Décompiler tous les apk dans la ROM
+settings_decompile_smali_all_apks=Décompiler les sources tous les apk dans la ROM (smali)
+settings_zipalign=Zipalign apks/jars (important pour OTA)
+settings_sign_rom=Signer fichier ROM file après compilation
+settings_delete_prj_directory=Effacer le répertoire project après compilation
+settings_interface_language=<html>Interface<br>langage
+
+#about panel
+about_author=Auteur:
+about_graphics=Graphiquess:
+about_design_components=Composant Java:
+about_tests_and_support=Tests et support:
+about_libraries=Libraries et parties de source code:
+about_donation=Donations:e
+
+#common
+common_content_blocked=Contenu bloqué!
+common_no_rights=Vous avez pas le droit de voir le contenu caché
+updater_btn_download=Télécharger
+updater_update_available=Mise à jour disponible!
