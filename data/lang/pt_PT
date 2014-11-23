@@ -1,0 +1,117 @@
+langpack=Portugal
+
+#left menu
+menu_title_deodexer=Deodexar
+menu_title_rom_file=Arquivo ROM
+menu_title_translation_parser=Traducção
+menu_title_patches=Patches
+menu_title_single_file=Apenas um arquivo
+menu_title_ota_creator=Criador OTA
+menu_title_kernel_tools=Ferramentas Kernel
+menu_title_settings=Definições
+menu_title_logs=Registo
+menu_title_about=Acerca de
+
+#deodexer panel
+deodexer_rom_file=Arquivo ROM
+deodexer_select_rom_file=Arquivo da ROM (*.zip)
+deodexer_rom_api=API da ROM
+deodexer_deodex_system_framework=Deodexar /system/framework/*
+deodexer_deodex_system_app=Deodexar /system/app/*
+deodexer_deodex_system_priv_app=Deodexar /system/priv-app/*
+deodexer_use_inline_txt=Use inline.txt methods table (-T option). Útil para as roms MT6592
+deodexer_use_inline_txt_description=<html>Podes usar o binário deodexerant para obter o seu próprio inline.txt <br>(Copiá-lo para o directório settings de jbart)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=Tipo de ROM
+rom_file_rom_file=Arquivo da ROM
+rom_file_select_rom_file=Seleccione o arquivo ROM (*.zip)
+rom_file_repo_main=Principal
+rom_file_repo_extra=Extra
+rom_file_repo_xml_patches=Patches XML
+rom_file_auto_deodex=Auto Deodexar ROM
+rom_file_auto_compile=Auto Compilar ROM
+rom_file_btn_compile=Compilar
+rom_file_btn_recompile=Recompilar
+rom_file_btn_decompile=Decompilar
+rom_file_btn_sign=Assinar
+rom_file_btn_patch=Parchear arquivos
+rom_file_btn_build_zip=Construir zip
+rom_file_btn_extract_zip=Extrair zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=Directório APK
+translation_parser_select_decompiled_apk_dir=Seleccione o directório com os arquivos *.apk decompilados
+translation_parser_translation_dir=Tradução
+translation_parser_select_translation_dir=Seleccione o directório com os arquivos *.apk traduzidos
+translation_parser_language=Idioma
+translation_parser_language_original=Original:
+translation_parser_language_translation=Tradução:
+translation_parser_delete_obsolete=Eliminar as cadeias de texto obsoletas da traducão (reconstruir)
+translation_parser_delete_obsolete_description=CUIDADO: Esta opção rescreverá os teus arquivos de traducção!
+translation_parser_skipnotindefault=Saltar todas as cadeias de texto traduzidas que não estão nos arquivos da traducão original
+translation_parser_skipnotindefault_description=<html><b>Activado:</b>Todas as cadeias de texto que não estão no xml original serão saltados <br><b>Desactivado:</b> Apenas as cadeias de texto indicadas em <b>translation.parser.skipnotindefault.conf</b> serão saltadas
+translation_parser_btn_parse=Analizar
+
+#patches panel
+
+#single file panel
+single_file_file=Arquivo
+single_file_select_file=Seleccione o arquivo apk ou jar (O arquivo zip da ROM para assinar)
+single_file_decompile_smali=Decompilar fontes (smali)
+single_file_install_frames=Instalar frameworks (Guarde as apk's no directório data/frameworks_single)
+single_file_use_original_manifest=Usar o AndroidManifest.xml original
+single_file_sign_after_compile=Assinar o archivo depois de compilar (Para as aplicações que não são de /system/app, ou manter as originais)
+single_file_auto_patch=Auto aplicar os paches na fase de decompilação (Desde o directório data/patches)
+single_file_btn_patch=Patche archivos
+single_file_btn_deodex=Deodexar
+single_file_btn_sign=Assinar
+single_file_btn_decompile=Decompilar
+single_file_btn_compile=Compilar
+
+#ota creator panel
+ota_creator_old_rom=ROM antiga
+ota_creator_select_old_rom=Seleccione o arquivo da ROM antiga (*.zip)
+ota_creator_new_rom=Nova ROM
+ota_creator_select_new_rom=Seleccione o arquivo da nova ROM (*.zip)
+ota_creator_out_folder=Pasta destino
+ota_creator_select_out_folder=Seleccione pasta destino
+ota_creator_make_ota=Criar OTA
+
+#kernel tools panel
+kerneltools_kernel_file=Archivo Kernel
+kerneltools_select_kernel_file=Seleccione o arquivo do kernel (boot.img, recovery.img)
+kerneltools_btn_pack=compactar
+kerneltools_btn_unpack=descompactar
+
+#settings panel
+settings_language=Idioma
+settings_timezone=Zona horária
+settings_lang_tz_description=Estes valores são escritos no arquivo /system/build.prop
+settings_alt_rom_name=Nome alternativo para a ROM
+settings_alt_rom_name_description=<html>Activado: carrega as regras marcadas no archivo <b>data/settings/alt_rom_name.conf</b><p>Desactivado: "bz_"+name_original_rom</html>
+settings_repo_download_main=Descarregar o repositório principal das traduções
+settings_repo_download_extra=Descarregar o repositório de extras (altera arquivos)
+settings_repo_download_xml_patches=Descarregar o repositório de patches XML
+settings_repo_redownload=Voltar a descarregar os repositórios(cada vez)
+settings_decompile_all_apks=Decompilar todas as apk's da ROM
+settings_decompile_smali_all_apks=Decompilar as fontes de cada apk na ROM(smali)
+settings_zipalign=Zipalign apks/jars (importante para OTA)
+settings_sign_rom=Assinar ROM despois de compilar
+settings_delete_prj_directory=Eliminar o directório do projecto actual depois de compilar
+settings_interface_language=<html>Interface<br>Idioma
+
+#about panel
+about_author=Autor:
+about_graphics=Desenho:
+about_design_components=Componentes Java:
+about_tests_and_support=Suporte:
+about_libraries=Librarias e partes do codigo fonte:
+about_donation=Doacções:
+
+#common
+common_content_blocked=Conteúdo bloqueado!
+common_no_rights=Não tem direitos para ver o conteúdo oculto
