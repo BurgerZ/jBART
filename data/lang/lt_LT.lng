@@ -1,0 +1,120 @@
+langpack=Lithuanian
+
+#left menu
+menu_title_deodexer=Deodekseris
+menu_title_rom_file=ROM failas
+menu_title_translation_parser=Vertimo analizatorius
+menu_title_patches=Pataisos
+menu_title_single_file=Vienas failas
+menu_title_ota_creator=OTA kūrėjas
+menu_title_kernel_tools=Branduolio įrankiai
+menu_title_settings=Nustatymai
+menu_title_logs=Žurnalai (Logs)
+menu_title_about=Apie
+
+#deodexer panel
+deodexer_rom_file=ROM failas
+deodexer_select_rom_file=Išrinkti ROM failą (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_system_framework=Deodeksiroti /system/framework/*
+deodexer_deodex_system_app=Deodeksiroti /system/app/*
+deodexer_deodex_system_priv_app=Deodeksiroti /system/priv-app/*
+deodexer_use_inline_txt=Naudoti inline.txt lentelę (-T parinktis). Naudinga MT6592 roms
+deodexer_use_inline_txt_description=<html>Jūs galite naudoti deodexerant binary, kad gauti, savo inline.txt nuo Jūsų prietaiso <br>(tada tik kopijuoti inline.txt į jbart nustatymų katalogą)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodeksas
+
+#rom file panel
+rom_file_rom_type=ROM tipas
+rom_file_rom_file=ROM failas
+rom_file_select_rom_file=Išrinkti ROM failą (*.zip)
+rom_file_repo_main=Pagrindinis
+rom_file_repo_extra=Extra
+rom_file_repo_xml_patches=XML pataisa
+rom_file_auto_deodex=Auto deodeksoti ROM
+rom_file_auto_compile=Auto kompiliuoti ROM
+rom_file_btn_compile=Kompiliuoti
+rom_file_btn_recompile=Perkompiliuoti
+rom_file_btn_decompile=Dekompiliuoti
+rom_file_btn_sign=Pasirašyti
+rom_file_btn_patch=Pataisų failai
+rom_file_btn_build_zip=Supakuoti zip
+rom_file_btn_extract_zip=Išpakuoti zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=APK Dir
+translation_parser_select_decompiled_apk_dir=Išrinkti katalogą su dekompiliuojamais *.apk failais
+translation_parser_translation_dir=Vertimas
+translation_parser_select_translation_dir=Išrinkti katalogą su išverstais *.apk failais
+translation_parser_language=Kalba
+translation_parser_language_original=Originalas:
+translation_parser_language_translation=Vertimas:
+translation_parser_delete_obsolete=Panaikinti pasenusius įrašus iš vertimo (atstatyti)
+translation_parser_delete_obsolete_description=ĮSPĖJIMAS: ši parinktis perrašys Jūsų vertimo failus!
+translation_parser_skipnotindefault=Praleisti visus "nenumatytuose" punktuose (kurie nėra failuose)
+translation_parser_skipnotindefault_description=<html><b>Pažymėtas:</b> visi išversti punktai, kurie nėra originaliose xml failuose bus praleisti (nebus pridėtas į vertimą ar analizatoriaus išėjimą)<br><b>Nepažymėtas:</b> tik punktai iš config <b>translation.parser.skipnotindefault.conf</b> bus praleisti
+translation_parser_btn_parse=Analizuoti
+
+#patches panel
+
+#single file panel
+single_file_file=Failas
+single_file_select_file=Išrinkti apk ar jar failą (ar ROM zip pasirašyti)
+single_file_decompile_smali=Dekompiliuoti šaltinius (smali)
+single_file_install_frames=Įdiegti struktūras (vieta šių apk's data/frameworks_single)
+single_file_use_original_manifest=Naudoti originalų AndroidManifest.xml
+single_file_sign_after_compile=Pasirašyti failą po kompiliavimo (ne-sistemos apps, laikyti originalų)
+single_file_auto_patch=Auto taikyti pataisas prie dekompiliavimo (iš data/patches dir)
+single_file_btn_patch=Pataisų failai
+single_file_btn_deodex=Deodeksas
+single_file_btn_sign=Pasirašyti
+single_file_btn_decompile=Dekompiliuoti
+single_file_btn_compile=Kompiliuoti
+
+#ota creator panel
+ota_creator_old_rom=Senas ROM
+ota_creator_select_old_rom=Išrinkti seną ROM failą (*.zip)
+ota_creator_new_rom=Naujas ROM
+ota_creator_select_new_rom=Išrinkti naują ROM failą (*.zip)
+ota_creator_out_folder=Aplankas
+ota_creator_select_out_folder=Išrinkti išėjimo aplanką
+ota_creator_make_ota=Padaryti ОТА
+
+#kernel tools panel
+kerneltools_kernel_file=Branduolio failas
+kerneltools_select_kernel_file=Išrinkti branduolio failą (boot.img, recovery.img)
+kerneltools_btn_pack=Supakuoti
+kerneltools_btn_unpack=Išpakuoti
+
+#settings panel
+settings_language=Kalba
+settings_timezone=Laiko juosta
+settings_lang_tz_description=Šios reikšmės bus įrašytos į /system/build.prop failą
+settings_alt_rom_name=Alternatyva iš ROM pavadinimų
+settings_alt_rom_name_description=<html>Pažymėtas: apkrovos pavadinimų taisyklės iš <b>data/settings/alt_rom_name.conf</b><p>Nepažymėtas: "bz_"+original_rom_name</html>
+settings_repo_download_main=Parsisiųsti pagrindinę vertimo saugyklą
+settings_repo_download_extra=Parsisiųsti Extra saugyklą (failo pakeitimus)
+settings_repo_download_xml_patches=Parsisiųsti XML pataisų saugyklą
+settings_repo_redownload=Iš naujo atsiųsti saugyklas (kiekvieną kartą)
+settings_decompile_all_apks=Dekompiliuoti visus apk's iš ROM
+settings_decompile_smali_all_apks=Dekompiliuoti src kiekvieno apk iš ROM (smali)
+settings_zipalign=Optimizuoti (zipalign) apks/jars (svarbus OTA)
+settings_sign_rom=Pasirašyti ROM failą po kompiliavimo
+settings_delete_prj_directory=Panaikinti projekto katalogą po kompiliavimo
+settings_remember_recents=Prisiminti paskutinius atidarytus failus ir katalogus
+settings_interface_language=<html>Interfeiso<br>kalba
+
+#about panel
+about_author=Autorius:
+about_graphics=Grafika:
+about_design_components=Java komponentai:
+about_tests_and_support=Testai ir palaikymas:
+about_libraries=Bibliotekos ir šaltinio kodo dalys:
+about_donation=Parama:
+
+#common
+common_content_blocked=Blokuotas turinys!
+common_no_rights=Jūs neturite teisių matyti paslėptą turinį
+updater_btn_download=Atsisiųsti
+updater_update_available=Prieinamas atnaujinimas!
