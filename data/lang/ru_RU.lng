@@ -102,6 +102,7 @@ settings_decompile_smali_all_apks=Декомпилировать smali для в
 settings_zipalign=Оптимизировать apk/jar файлы (zipalign). Важно для ОТА
 settings_sign_rom=Подписать файл прошивки после компиляции
 settings_delete_prj_directory=Удалить папку проекта после компиляции
+settings_remember_recents=Запоминать последние открытые файлы и директории
 settings_interface_language=<html>Язык<br>интерфейса
 
 #about panel

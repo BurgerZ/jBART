@@ -102,6 +102,7 @@ settings_decompile_smali_all_apks=Decompile των src από κάθε apk στ�
 settings_zipalign=Zipalign apks/jars (απαραίτητο για OTA)
 settings_sign_rom=Sign του αρχείου ROM μετά το compiling
 settings_delete_prj_directory=Διαγραφή του φακέλου εργασίας μετά το compiling
+settings_remember_recents=Απομνημόνευση αρχείων και φακέλων που άνοιξαν τελευταία
 settings_interface_language=<html>Γλώσσα<br>περιβάλλοντος
 
 #about panel

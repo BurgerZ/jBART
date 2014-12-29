@@ -102,6 +102,7 @@ settings_decompile_smali_all_apks=Decompile src of each apk in ROM (smali)
 settings_zipalign=Zipalign apks/jars (important for OTA)
 settings_sign_rom=Sign ROM file after compiling
 settings_delete_prj_directory=Delete project directory after compiling
+settings_remember_recents=Remember last opened files and directories
 settings_interface_language=<html>Interface<br>language
 
 #about panel
