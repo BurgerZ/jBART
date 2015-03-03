@@ -7,6 +7,7 @@ menu_title_translation_parser=Парсер перекладу
 menu_title_patches=Патчі
 menu_title_single_file=Одиночні файли
 menu_title_ota_creator=OTA оновлення
+menu_title_kernel_tools=Работа з Ядром
 menu_title_settings=Налаштування
 menu_title_logs=Журнал (лог)
 menu_title_about=Про програму
@@ -14,14 +15,14 @@ menu_title_about=Про програму
 #deodexer panel
 deodexer_rom_file=Прошивка
 deodexer_select_rom_file=Виберіть файл прошивки (*.zip)
-deodexer_rom_api=
+deodexer_rom_api=ROM API
 deodexer_deodex_system_framework=Деодексувати /system/framework/*
 deodexer_deodex_system_app=Деодексувати /system/app/*
 deodexer_deodex_system_priv_app=Деодексувати /system/priv-app/*
 deodexer_use_inline_txt=Викристовувати inline.txt (опція -T). Увімкніть для MT6592
 deodexer_use_inline_txt_description=<html>Ви можете використовувати deodexerant (з теки data/tools/arm) для отримання таблиці методів inline.txt з вашого телефону<br>(потім просто скопіюйте inline.txt до теки settings jbart)
-deodexer_baksmali=
-deodexer_smali=
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
 deodexer_btn_deodex=Деодекс
 
 #rom file panel
@@ -36,6 +37,7 @@ rom_file_auto_compile=Автокомпіляція прошивки
 rom_file_btn_compile=Компіляція
 rom_file_btn_recompile=Рекомпіляція
 rom_file_btn_decompile=Декомпіляція
+rom_file_btn_sign=Підписати
 rom_file_btn_patch=Патч
 rom_file_btn_build_zip=Стиснути
 rom_file_btn_extract_zip=Видобути
@@ -50,6 +52,8 @@ translation_parser_language_original=Оригінал:
 translation_parser_language_translation=Переклад:
 translation_parser_delete_obsolete=Видалити застарілі рядки з перекладу
 translation_parser_delete_obsolete_description=УВАГА: дана опція перезапише ваши файли перекладу!
+translation_parser_skipnotindefault=Пропускати ресурси, яких немає в оригіналі ("not in default")
+translation_parser_skipnotindefault_description=<html><b>Увімкнено:</b> всі перекладені ресурси, яких немає в оригінальних файлах будуть ігноруватися при парсингу<br><b>Вимкнено:</b> при парсингу будуть ігноруватися тільки ресурси, вказані в файлі <b>translation.parser.skipnotindefault.conf</b>
 translation_parser_btn_parse=Парсити
 
 #patches panel
@@ -77,12 +81,18 @@ ota_creator_out_folder=Тека
 ota_creator_select_out_folder=Виберіть теку, куди зберігати ОТА
 ota_creator_make_ota=Створити ОТА
 
+#kernel tools panel
+kerneltools_kernel_file=Файл ядра
+kerneltools_select_kernel_file=Виберіть файл ядра (boot.img, recovery.img)
+kerneltools_btn_pack=Запакувати
+kerneltools_btn_unpack=Розпакувати
+
 #settings panel
 settings_language=Мова
 settings_timezone=Час. пояс
 settings_lang_tz_description=Значення цих полів (мова та часовий пояс) будуть записані до build.prop
-settings_alt_rom_name=Альтернативне им\'я вихідного файлу прошивки
-settings_alt_rom_name_description=<html>Увімкнено: завантаження правил найменування з файлу <b>data/settings/alt_rom_name.conf</b><p>Вимкнено: "bz_"+original_rom_name</html>
+settings_alt_rom_name=Альтернативне ім'я вихідного файлу прошивки
+settings_alt_rom_name_description=<html>Увімкнено: завантаження правил з файлу <b>data/settings/alt_rom_name.conf</b><p>Вимкнено: "bz_"+original_rom_name</html>
 settings_repo_download_main=Завантажувати основний репозиторій перекладу
 settings_repo_download_extra=Завантажувати екстра репозиторій (файли заміни)
 settings_repo_download_xml_patches=Завантажувати репозиторій з патчами для XML
@@ -92,6 +102,7 @@ settings_decompile_smali_all_apks=Декомпилювати smali для всі
 settings_zipalign=Оптимізувати apk/jar файли (zipalign). Важливо для ОТА
 settings_sign_rom=Підписати файл прошивки після компіляції
 settings_delete_prj_directory=Видалити теку проекту після компіляції
+settings_remember_recents=Запам'ятовувати останні відкриті файли і каталоги
 settings_interface_language=<html>Мова<br>інтерфейсу
 
 #about panel
@@ -105,3 +116,5 @@ about_donation=Пожертви:
 #common
 common_content_blocked=Немає доступу!
 common_no_rights=Ви не маєте прав для перегляду прихованого вмісту.
+updater_btn_download=Завантажити
+updater_update_available=Доступна нова версія!
