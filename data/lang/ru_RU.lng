@@ -32,6 +32,7 @@ rom_file_select_rom_file=Выберите файл прошивки (*.zip)
 rom_file_repo_main=Перевод
 rom_file_repo_extra=Экстра
 rom_file_repo_xml_patches=Патчи XML
+rom_file_local_patches=Использовать локальные патчи (из папки data/patches)
 rom_file_auto_deodex=Автодеодекс прошивки
 rom_file_auto_compile=Автокомпиляция прошивки
 rom_file_btn_compile=Компиляция

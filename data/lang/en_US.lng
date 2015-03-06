@@ -32,6 +32,7 @@ rom_file_select_rom_file=Select ROM file (*.zip)
 rom_file_repo_main=Main
 rom_file_repo_extra=Extra
 rom_file_repo_xml_patches=XML Patch
+rom_file_local_patches=Use local patches (from data/patches directory)
 rom_file_auto_deodex=Auto Deodex ROM
 rom_file_auto_compile=Auto Compile ROM
 rom_file_btn_compile=Compile
