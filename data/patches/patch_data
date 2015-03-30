@@ -1,5 +1,0 @@
-# NXT patches
-# %patches_dir% is the same as %translation_dir%
-#include "%patches_dir%/nxt/CoreFix.ptch";
-#include "%translation_dir%/nxt/T9Update.ptch";
-#include "%translation_dir%/nxt/ThemesFix.ptch";
