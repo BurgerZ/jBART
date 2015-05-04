@@ -1,0 +1,123 @@
+langpack=Deutsch
+
+#left menu
+menu_title_deodexer=Deodexer
+menu_title_rom_file=ROM Datei
+menu_title_translation_parser=Übersetzungsparser
+menu_title_patches=Patches
+menu_title_single_file=Einzelne Datei
+menu_title_ota_creator=OTA Ersteller
+menu_title_kernel_tools=Kernel Werkzeuge
+menu_title_settings=Einstellungen
+menu_title_logs=Protokolle
+menu_title_about=Über
+
+#deodexer panel
+deodexer_rom_file=ROM Datei
+deodexer_select_rom_file=Wähle ROM Datei (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_system_framework=Deodex /system/framework/*
+deodexer_deodex_system_app=Deodex /system/app/*
+deodexer_deodex_system_priv_app=Deodex /system/priv-app/*
+deodexer_use_inline_txt=Benutze inline.txt Methodentabelle (-T Option). Nützlich fuer MT6592 roms
+deodexer_use_inline_txt_description=<html>Sie können das Binärfile deodexerant benutzen, um die Datei inline.txt vom ihrem Gerät <br> zu erhalten (und die Datei dann einfach in das jbart settings Verzeichnis kopieren)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=ROM Typ
+rom_file_rom_file=ROM Datei
+rom_file_select_rom_file=Wähle ROM Datei (*.zip)
+rom_file_repo_main=Main
+rom_file_repo_extra=Extra
+rom_file_repo_xml_patches=XML Patch
+rom_file_local_patches=Benutzer lokale Patche (vom Verzeichnis data/patches)
+rom_file_auto_deodex=Auto Deodex ROM
+rom_file_auto_compile=Autokompilierung ROM
+rom_file_btn_compile=Kompiliere
+rom_file_btn_recompile=Rekompiliere
+rom_file_btn_decompile=Dekompiliere
+rom_file_btn_sign=Signiere
+rom_file_btn_patch=Patch Dateien
+rom_file_btn_build_zip=Baue zip
+rom_file_btn_extract_zip=Extrahiere zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=APK Verzeichnis
+translation_parser_select_decompiled_apk_dir=Wähle Verzeichnis mit dekompilierten *.apk Dateien
+translation_parser_translation_dir=Übersetzung
+translation_parser_select_translation_dir=Wähle Verzeichnis mit übersetzten *.apk Dateien
+translation_parser_language=Sprache
+translation_parser_language_original=Original:
+translation_parser_language_translation=Übersetzung:
+translation_parser_delete_obsolete=Lösche überflüssige Einträge von der Übersetzung (rebuild)
+translation_parser_delete_obsolete_description=WARNUNG: diese Option überschreibt ihre Übersetzungs-Dateien!
+translation_parser_skipnotindefault=Überspringe alle "nicht im Default" Einträge
+translation_parser_skipnotindefault_description=<html><b>Angehakt:</b> alle übersetzten Einträge, die nicht in originalen Dateien sind, werden übersprungen (und somit nicht zur Übersetzung oder Parser Ausgabe hinzugefügt)<br><b>Nicht angehakt:</b> nur Einträge aus der Konfiguration von <b>translation.parser.skipnotindefault.conf</b> werden übersprungen
+translation_parser_btn_parse=Analysiere
+
+#patches panel
+
+#single file panel
+single_file_file=Datei
+single_file_select_file=Wähle apk oder jar Datei (oder ROM zip zum Signieren)
+single_file_decompile_smali=Quellen dekompilieren (smali)
+single_file_install_frames=Installiere frameworks (platziere diese apk's in data/frameworks_single)
+single_file_use_original_manifest=Benutze originale AndroidManifest.xml
+single_file_sign_after_compile=Signiere Datei nach Kompilierung (für nicht-system apps, oder behalte originale Signatur)
+single_file_auto_patch=Wende Patches automatisch während Dekompilierungsphase an (vom data/patches Verzeichnis)
+single_file_aapt_5=Benutze aapt Binärfile für Android 5.x (api > 20)
+single_file_verbose=Ausführliche Compiler-Ausgabe
+single_file_btn_patch=Patche Dateien
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Signiere
+single_file_btn_decompile=Dekompiliere
+single_file_btn_compile=Kompiliere
+
+#ota creator panel
+ota_creator_old_rom=Altes ROM
+ota_creator_select_old_rom=Wähle alte ROM Datei (*.zip)
+ota_creator_new_rom=Neues ROM
+ota_creator_select_new_rom=Wähle neue ROM Datei (*.zip)
+ota_creator_out_folder=Ausgabeort
+ota_creator_select_out_folder=Wähle Ausgabeverzeichnis
+ota_creator_make_ota=Erstelle OTA Paket
+
+#kernel tools panel
+kerneltools_kernel_file=Kernel Datei
+kerneltools_select_kernel_file=Wähle kernel Datei (boot.img, recovery.img)
+kerneltools_btn_pack=Packe
+kerneltools_btn_unpack=Entpacke 
+
+#settings panel
+settings_language=Sprache
+settings_timezone=Zeitzone
+settings_lang_tz_description=Diese Werte werden in die Datei /system/build.prop geschrieben
+settings_alt_rom_name=Alternative ROM Benamung bei Ausgabe
+settings_alt_rom_name_description=<html>Angehakt: Lade Benamungsregeln von <b>data/settings/alt_rom_name.conf</b><p>Nicht angehakt: "bz_"+original_rom_name</html>
+settings_repo_download_main=Lade Hauptübersetzungs-Repository herunter
+settings_repo_download_extra=Lade Extra Repository herunter(Dateiersetzungen)
+settings_repo_download_xml_patches=Lade XML Patches Repository herunter
+settings_repo_redownload=Lade die Repositories neu (jedes Mal)
+settings_decompile_all_apks=Dekompiliere alle apk's im ROM
+settings_decompile_smali_all_apks=Dekompiliere Quellcode von jedem apk im ROM (smali)
+settings_zipalign=Zipalign apks/jars (wichtig fuer OTA)
+settings_sign_rom=Signiere ROM Datei nach dem Kompilieren
+settings_delete_prj_directory=Lösche Projektverzeichnis nach dem Kompilieren
+settings_remember_recents=Zuletzt geöffnete Dateien und Verzeichnisse merken
+settings_interface_language=<html>Interface<br>Sprache
+
+#about panel
+about_author=Autor:
+about_graphics=Grafiken:
+about_design_components=Java Komponenten:
+about_tests_and_support=Tests und Betreuung:
+about_libraries=Bibliotheken und Teile des Quellcodes:
+about_donation=Spenden:
+
+#common
+common_content_blocked=Inhalt blockiert!
+common_no_rights=Sie haben kein Recht den verborgenen Inhalt zu sehen
+updater_btn_download=Herunterladen
+updater_update_available=Update verfügbar!
