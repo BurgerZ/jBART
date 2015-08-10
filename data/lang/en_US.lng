@@ -32,6 +32,7 @@ rom_file_select_rom_file=Select ROM file (*.zip)
 rom_file_repo_main=Main
 rom_file_repo_extra=Extra
 rom_file_repo_xml_patches=XML Patch
+rom_file_use_patches=Use patches (NXT patches for smali, etc.)
 rom_file_local_patches=Use local patches (from data/patches directory)
 rom_file_auto_deodex=Auto Deodex ROM
 rom_file_auto_compile=Auto Compile ROM
@@ -115,6 +116,7 @@ about_design_components=Java components:
 about_tests_and_support=Tests and support:
 about_libraries=Libraries and parts of source code:
 about_donation=Donations:
+about_licence_info=Licence:
 
 #common
 common_content_blocked=Content Blocked!
