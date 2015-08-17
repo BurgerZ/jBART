@@ -32,6 +32,7 @@ rom_file_select_rom_file=ROM Dosyasını Seçin (*.zip)
 rom_file_repo_main=Ana
 rom_file_repo_extra=Ekstra
 rom_file_repo_xml_patches=XML Yama
+rom_file_use_patches=Yamaları kullan (smali için NXT yamaları vb.)
 rom_file_local_patches=Yerel yamaları kullan (data/patches dizininden)
 rom_file_auto_deodex=ROM'u Otomatik Deodexle
 rom_file_auto_compile=ROM'u Otomatik Derle
@@ -67,6 +68,8 @@ single_file_install_frames=Framework dosyalarını kur (apk'lar data/frameworks_
 single_file_use_original_manifest=Orjinal Android Manifest.xml Kullan
 single_file_sign_after_compile=Derlemeden sonra imzala (sistem harici uygulamalar için veya orjinali koru)
 single_file_auto_patch=Yamaları çözümleme esnasında uygula (data/patches dizininden)
+single_file_aapt_5=Android 5.x için aapt binary kullan (api > 20)
+single_file_verbose=Ayrıntılı birleştirme çıktısı
 single_file_btn_patch=Yama dosyaları
 single_file_btn_deodex=Deodex
 single_file_btn_sign=İmzala
@@ -113,6 +116,7 @@ about_design_components=Java bileşenleri:
 about_tests_and_support=Test ve destek:
 about_libraries=Kütüphaneler ve kaynak kod parçaları:
 about_donation=Bağış:
+about_licence_info=Lisans:
 
 #common
 common_content_blocked=İçerik Engelli
