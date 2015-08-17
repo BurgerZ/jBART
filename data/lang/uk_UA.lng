@@ -32,6 +32,7 @@ rom_file_select_rom_file=Виберіть файл прошивки (*.zip)
 rom_file_repo_main=Переклад
 rom_file_repo_extra=Екстра
 rom_file_repo_xml_patches=Патчі XML
+rom_file_use_patches=Використовувати патчі (NXT патчі для smali і т.д.)
 rom_file_local_patches=Використовувати локальні патчі (із теки data/patches)
 rom_file_auto_deodex=Автодеодекс прошивки
 rom_file_auto_compile=Автокомпіляція прошивки
@@ -115,6 +116,7 @@ about_design_components=Компоненти java:
 about_tests_and_support=Тести та підтримка:
 about_libraries=Використані бібліотекі та частини вихідного коду:
 about_donation=Пожертви:
++about_licence_info=Ліцензія:
 
 #common
 common_content_blocked=Немає доступу!
