@@ -32,6 +32,7 @@ rom_file_select_rom_file=Επιλογή αρχείου ROM (*.zip)
 rom_file_repo_main=Βασικό
 rom_file_repo_extra=Extra
 rom_file_repo_xml_patches=XML Patch
+rom_file_local_patches=Χρήση τοπικών patches (από τον φάκελο data/patches)
 rom_file_auto_deodex=Αυτόματο Deodex ROM
 rom_file_auto_compile=Αυτόματο Compile ROM
 rom_file_btn_compile=Compile
@@ -66,6 +67,8 @@ single_file_install_frames=Εγκατάσταση frameworks (τοποθέτησ
 single_file_use_original_manifest=Χρήση του πρωτότυπου AndroidManifest.xml
 single_file_sign_after_compile=Sign του αρχείου μετά το compiling (για εφαρμογές μη συστήματος, ή διατήρηση του πρωτότυπου)
 single_file_auto_patch=Αυτόματη εφαρμογή των patches κατά το decompiling (από τον φάκελο data/patches)
+single_file_aapt_5=Χρήση aapt binary για android 5.x (api > 20)
+single_file_verbose=Αναλυτική έξοδος compiling
 single_file_btn_patch=Patch αρχείων
 single_file_btn_deodex=Deodex
 single_file_btn_sign=Sign
@@ -112,6 +115,7 @@ about_design_components=Συστατικά Java:
 about_tests_and_support=Δοκιμές και υποστήριξη:
 about_libraries=Βιβλιοθήκες και μέρη του πηγαίου κώδικα:
 about_donation=Δωρεές:
+about_licence_info=Άδεια χρήσης:
 
 #common
 common_content_blocked=Αποκλεισμένο περιεχόμενο!
