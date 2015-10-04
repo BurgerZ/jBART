@@ -13,4 +13,7 @@
   <locale id="Spanish (es_ES)">es_ES</locale>
   <locale id="Croatian (hr_HR)">hr_HR</locale>
   <locale id="Greek (el_GR)">el_GR</locale>
+  <locale id="Thai (th_TH)">th_TH</locale>
+  <locale id="Turkish (tr_TR)">tr_TR</locale>
+  <locale id="Romanian (ro_RO)">ro_RO</locale>
 </locales>

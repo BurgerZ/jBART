@@ -30,3 +30,13 @@ Ljava/lang/StrictMath;->sqrt(D)D
 Ljava/lang/Math;->log(D)D
 Ljava/lang/Math;->atan(D)D
 Ljava/lang/Math;->exp(D)D
+Ljava/lang/Integer;->highestOneBit(I)I
+Ljava/lang/Integer;->lowestOneBit(I)I
+Ljava/lang/Integer;->numberOfLeadingZeros(I)I
+Ljava/lang/Integer;->numberOfTrailingZeros(I)I
+Ljava/lang/Integer;->bitCount(I)I
+Ljava/lang/Long;->highestOneBit(J)J
+Ljava/lang/Long;->lowestOneBit(J)J
+Ljava/lang/Long;->numberOfLeadingZeros(J)I
+Ljava/lang/Long;->numberOfTrailingZeros(J)I
+Ljava/lang/Long;->bitCount(J)I

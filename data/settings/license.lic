@@ -1,0 +1,15 @@
+----- BEGIN LICENSE -----
+licensee=Simple
+interface.cli=false
+interface.extcli=false
+interface.gui=true
+feature.lollipop=true
+feature.imgsupport=false
+
+----- END LICENSE -----
+----- BEGIN SIGNATURE -----
+MC0CFAd4C46yOh0bw1hJ
+TMtV/bZyCzFMAhUAlyNh
+JnRCQKb/k4DkJKM9K+ed
+hm4=
+----- END SIGNATURE -----

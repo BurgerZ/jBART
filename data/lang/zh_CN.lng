@@ -1,0 +1,121 @@
+langpack=简体中文
+
+#left menu
+menu_title_deodexer=反编译Odex
+menu_title_rom_file=ROM文件
+menu_title_translation_parser=翻译解析器
+menu_title_patches=补丁
+menu_title_single_file=单个文件
+menu_title_ota_creator=创建OTA线刷包
+menu_title_kernel_tools=内核工具
+menu_title_settings=设置
+menu_title_logs=日志
+menu_title_about=关于
+
+#deodexer panel
+deodexer_rom_file=ROM文件
+deodexer_select_rom_file=选择ROM文件(*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_system_framework=反编译Odex /system/framework/*
+deodexer_deodex_system_app=反编译Odex /system/app/*
+deodexer_deodex_system_priv_app=反编译Odex /system/priv-app/*
+deodexer_use_inline_txt=对于使用 inline.txt方法表(-T 选项)。MT/MTK ROM更加有用.
+deodexer_use_inline_txt_description=<html>你可以从你的设备使用 deodexerant binary (Odex二进制文件)选择 inline.txt <br>(只需要复制 inline.txt 到jbart的Settings目录)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=ROM类型
+rom_file_rom_file=ROM文件
+rom_file_select_rom_file=选择ROM文件 (*.zip)
+rom_file_repo_main=主要
+rom_file_repo_extra=额外
+rom_file_repo_xml_patches=XML补丁
+rom_file_local_patches=使用本地补丁集 (从 data/patches 目录)
+rom_file_auto_deodex=自动反编译Odex ROM
+rom_file_auto_compile=自动编译 ROM
+rom_file_btn_compile=编译
+rom_file_btn_recompile=重新编译
+rom_file_btn_decompile=反编译
+rom_file_btn_sign=签名
+rom_file_btn_patch=补丁文件
+rom_file_btn_build_zip=创建zip
+rom_file_btn_extract_zip=提取zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=APK目录
+translation_parser_select_decompiled_apk_dir=选择需要反编译的APK文件所在目录
+translation_parser_translation_dir=翻译
+translation_parser_select_translation_dir=选择需要翻译的APK文件所在目录
+translation_parser_language=语言
+translation_parser_language_original=原文:
+translation_parser_language_translation=翻译:
+translation_parser_delete_obsolete=从翻译中删除过时的项目(重建)
+translation_parser_delete_obsolete_description=警告：此选项将改写你的翻译文件！
+translation_parser_skipnotindefault=跳过所有“不违约”的项目（不在原始文件项）
+translation_parser_skipnotindefault_description=<html><b>检验:</b> 所有翻译项目不存在的会被跳过 (不会被加入到翻译或解析器输出)<br><b>未检验:</b> 仅从配置项 <b>translation.parser.skipnotindefault.conf</b> 将被跳过
+translation_parser_btn_parse=解析
+
+#patches panel
+
+#single file panel
+single_file_file=文件
+single_file_select_file=选择apk或jar文件（或ROM ZIP签署）
+single_file_decompile_smali=反编译源 (smali)
+single_file_install_frames=安装框架 (放置这些apk的 data/frameworks_single)
+single_file_use_original_manifest=使用原来的 AndroidManifest.xml
+single_file_sign_after_compile=签名文件（非系统的应用程序，或者保留源）
+single_file_auto_patch=自动打补丁，在反编译阶段 (从 data/patches 目录)
+single_file_btn_patch=补丁文件
+single_file_btn_deodex=反编译Odex
+single_file_btn_sign=签名
+single_file_btn_decompile=反编译
+single_file_btn_compile=编译
+
+#ota creator panel
+ota_creator_old_rom=旧的ROM
+ota_creator_select_old_rom=选择旧的ROM文件 (*.zip)
+ota_creator_new_rom=新的ROM
+ota_creator_select_new_rom=选择新的ROM文件 (*.zip)
+ota_creator_out_folder=输出目录
+ota_creator_select_out_folder=选择输出目录
+ota_creator_make_ota=生成OTA线刷包
+
+#kernel tools panel
+kerneltools_kernel_file=内核文件
+kerneltools_select_kernel_file=选择内核文件 (boot.img, recovery.img)
+kerneltools_btn_pack=打包
+kerneltools_btn_unpack=解包
+
+#settings panel
+settings_language=语言
+settings_timezone=时区
+settings_lang_tz_description=该数值将被写入 /system/build.prop 文件
+settings_alt_rom_name=替换ROM命名
+settings_alt_rom_name_description=<html>检验: 加载命名规则文件 <b>data/settings/alt_rom_name.conf</b><p>未检验: "bz_"+original_rom_name</html>
+settings_repo_download_main=下载主要编译库
+settings_repo_download_extra=下载额外编译库 (文件替换)
+settings_repo_download_xml_patches=下载XML补丁库
+settings_repo_redownload=重新下载库（每次）
+settings_decompile_all_apks=在ROM中反编译所有的APK文件
+settings_decompile_smali_all_apks=反编译每个APK文件的ROM SRC (smali)
+settings_zipalign=Zipalign apks/jars (线刷OTA必须)
+settings_sign_rom=编译后签名ROM文件
+settings_delete_prj_directory=删除项目目录
+settings_remember_recents=记住上次打开的文件和目录
+settings_interface_language=<html>界面<br>语言
+
+#about panel
+about_author=作者:
+about_graphics=头像:
+about_design_components=Java组件:
+about_tests_and_support=测试和支持:
+about_libraries=库和源代码的部分:
+about_donation=捐赠:
+
+#common
+common_content_blocked=内容被阻止！
+common_no_rights=您无权查看隐藏的内容
+updater_btn_download=下载
+updater_update_available=更新可用！
