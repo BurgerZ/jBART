@@ -2,7 +2,7 @@
 langpack=Hungarian
 
 #left menu
-menu_title_deodexer=Deodex
+menu_title_deodexer=Deodexelés
 menu_title_rom_file=ROM fájl
 menu_title_translation_parser=Fordítás elemző
 menu_title_patches=Patch fájlok
@@ -24,15 +24,18 @@ deodexer_use_inline_txt=Az inline.txt módszertábláit használja (-T opció). 
 deodexer_use_inline_txt_description=<html>Használhatod a deodexerant binary-t (eszköz saját inline.txt fájl)<br>(ekkor csak másold az inline.txt-t a jbart data/settings könyvtárba)
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
-deodexer_btn_deodex=Deodex
+deodexer_btn_deodex=Deodexelés
 
 #rom file panel
 rom_file_rom_type=ROM típus
 rom_file_rom_file=ROM fájl
 rom_file_select_rom_file=Válaszd ki a ROM fájlt (*.zip)
-rom_file_repo_main=Alap
-rom_file_repo_extra=Extra
+rom_file_repo_main=Fordítás
+rom_file_repo_extra=Fájlok
 rom_file_repo_xml_patches=XML Patch
+rom_file_selected_repositories=Kiválsztott fordítások:
+rom_file_use_patches=Patch-ek alkalmazása (NXT patche-k a smalihoz, stb.)
+rom_file_local_patches=Helyi patch-ek alkalmazása (a data/patches mappából)
 rom_file_auto_deodex=ROM Auto Deodex
 rom_file_auto_compile=ROM Auto Összeállítás
 rom_file_btn_compile=Összeállítás
@@ -67,6 +70,8 @@ single_file_install_frames=Framework(ök) telepítése (ezek helye: data/framewo
 single_file_use_original_manifest=Az eredeti AndroidManifest.xml használata
 single_file_sign_after_compile=Összeállítás után szignóz (nem rendszerappot, v. eredetit megtart)
 single_file_auto_patch=Patch aut. alk. visszafejtési fázisban (data/patches mappából)
+single_file_aapt_5=aapt binásris használata Android 5.x verzióhoz (api > 20)
+single_file_verbose=Összeállítás részletezése
 single_file_btn_patch=Fájl patch
 single_file_btn_deodex=Deodex
 single_file_btn_sign=Szignó
@@ -103,6 +108,7 @@ settings_decompile_smali_all_apks=ROM - összes apk fájl forrásának visszafej
 settings_zipalign=Apk/jar Zipalign (OTA készítéshez fontos)
 settings_sign_rom=ROM fájl szignózása összeállítás után
 settings_delete_prj_directory=A projekt könyvtár törlése összeállítás után
+settings_remember_recents=Emlékezzen at utoljára megnyitott fájlokra és mappákra
 settings_interface_language=<html>Felület<br>nyelve
 
 #about panel
