@@ -1,15 +1,17 @@
 ----- BEGIN LICENSE -----
-licensee=Simple
+licensee=Public
 interface.cli=false
 interface.extcli=false
 interface.gui=true
-feature.lollipop=true
-feature.imgsupport=false
+feature.debug=false
+feature.shex=false
+feature.fhex=false
+feature.kernel=false
 
 ----- END LICENSE -----
 ----- BEGIN SIGNATURE -----
-MC0CFAd4C46yOh0bw1hJ
-TMtV/bZyCzFMAhUAlyNh
-JnRCQKb/k4DkJKM9K+ed
-hm4=
+MCwCFDyaUVx9NRsqgmmD
+fWnJsvlKM4PRAhQ215Ez
+aT/JHXXLGGzUW4nASi03
+7Q==
 ----- END SIGNATURE -----

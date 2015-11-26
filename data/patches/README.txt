@@ -1,110 +1,54 @@
-﻿Patches configs:
+NXT Patches config (https://github.com/KDGDev/miui-v6-translation-for-nxt):
 
-1. method_patches.conf
-This config is for method replacement patches (replace the whole method with new one).
+1. The main patch config file is "patch_data" file, placed at the root of the data/patches directory:
 ------
-{
-   "apkname0.apk":[
-      {
-         "ApkName":"apkname0.apk",
-         "SmaliPath":"smali/com/miui/home/launcher/gadget",
-         "SmaliFileName":"",
-         "MethodName":".method public getDate()Ljava/lang/String;",
-         "MethodFilePath":"apkname0.apk",
-         "MethodFileName":"getDate.m",
-         "Enabled":"true"
-      },
-      {
-         "ApkName":"apkname0.apk",
-         "SmaliPath":"smali/com/miui/home/launcher/gadget",
-         "SmaliFileName":"",
-         "MethodName":".method public gF()Ljava/lang/String;",
-         "MethodFilePath":"apkname0.apk",
-         "MethodFileName":"gF.m",
-         "Enabled":"true"
-      }
-   ],
-   "apkname1.apk":[
-      {
-         "ApkName":"apkname1.apk",
-         "SmaliPath":"smali/miui/resourcebrowser/controller/online",
-         "SmaliFileName":"",
-         "MethodName":".method public getDownloadUrl(Ljava/lang/String;Z)Lmiui/resourcebrowser/controller/online/RequestUrl;",
-         "MethodFilePath":"apkname1.apk",
-         "MethodFileName":"getDownloadUrl.m",
-         "Enabled":"false"
-      }
-   ],
-   "apkname.jar":[
-      {
-         "ApkName":"apkname.jar",
-         "SmaliPath":"smali/com/miui/smalipath",
-         "SmaliFileName":"",
-         "MethodName":".method gF()L",
-         "MethodFilePath":"pathToMethod",
-         "MethodFileName":"gF.m",
-         "Enabled":"false"
-      }
-   ]
-}
+#Sample patch_data content:
+include "%translation_dir%/nxt/BackupFix.ptch";
+#include "%translation_dir%/nxt/CloudBackupFix.ptch";
+include "%translation_dir%/nxt/CloudFix.ptch";
+include "%translation_dir%/nxt/CoreFix.ptch";
+include "%translation_dir%/nxt/DisVolume.ptch";
+include "%translation_dir%/nxt/DownloadUiFix.ptch";
 ------
-"ApkName":"apkname.apk" - The name of apk(jar) file
-"SmaliPath":"smali/com/miui/home/launcher/gadget" - The path to smali folder. If this field is not empty, MethodName will be searched in this smali folder (in every smali file in this folder)
-"SmaliFileName":"" - the path to smali file. If this field is not empty, MethodName will be searched in this smali file
-"MethodName":".method public getDate()Ljava/lang/String;" - method name to replace
-"MethodFilePath":"apkname.apk" - the folder name (inside the "patches" folder), where the new method is located
-"MethodFileName":"getDate.m" - the new method file name
-"Enabled":"true" - enabled or disabled patch. If false - this patch will not be processed
+Each "include" node describes included patch file path (may be commented by # to skip some patches).
+%translation_dir% (equals to the %patches_dir%) is the directory where "patch_data" file is placed. You can use both tags (they are equals).
 
-2. string_patches.conf
-This config is for string replacement patches (replace the original string with new one).
+2. Patch files
+
+#Sample patch file content (BackupFix.ptch):
+appfile <Backup.apk>;
+replaceinfile "%smali%/com/miui/backup/ui/LocalBackupFragment.smali" "const-string v6, \"MB, \"" "const-string v6, \" МБ \"";
+replaceinfile "%smali%/com/miui/backup/ui/LocalBackupFragment.smali" "const-string v6, \"KB, \"" "const-string v6, \" КБ \"";
+#etc.
 ------
-{
-   "apkname0.apk":[
-	  {
-         "ApkName":"apkname0.apk",
-         "SmaliFileName":"smali/com/android/providers/contacts/t9/one.smali",
-         "OriginalString":"invoke-static {v4}, Lcom/android/providers/contacts/t9/f;->b(C)C",
-         "ReplaceString":"invoke-static {v4}, Lcom/android/providers/contacts/t9/MyT9Class;->formatCharToT9(C)C",
-         "Enabled":"true"
-      },
-	  {
-         "ApkName":"apkname.apk",
-         "SmaliFileName":"smali/com/android/providers/contacts/t9/two.smali",
-         "OriginalString":"invoke-static {v4}, Lcom/android/providers/contacts/t9/h;->b(C)C",
-         "ReplaceString":"invoke-static {v4}, Lcom/android/providers/contacts/t9/MyT9Class;->formatCharToT9(C)C",
-         "Enabled":"true"
-      },
-      {
-         "ApkName":"apkname.apk",
-         "SmaliFileName":"smali/com/android/providers/contacts/t9/three.smali",
-         "OriginalString":"invoke-static {v4}, Lcom/android/providers/contacts/t9/T9Utils;->d(C)C",
-         "ReplaceString":"invoke-static {v4}, Lcom/android/providers/contacts/t9/MyT9Class;->formatCharToT9(C)C",
-         "Enabled":"true"
-      }
-   ],
-   "apkname.jar":[
-      {
-         "ApkName":"apkname.jar",
-         "SmaliFileName":"smali/miui/util/filename.smali",
-         "OriginalString":"http://api.comm.miui.com/",
-         "ReplaceString":"http://mysite.com/",
-         "Enabled":"true"
-      }
-   ],
-   "apkname1.apk":[
-      {
-         "ApkName":"apkname1.apk",
-         "SmaliFileName":"smali/com/android/mms/data/smaliname.smali",
-         "OriginalString":"original_string_to_replace_in_given_smali_file",
-         "ReplaceString":"replacement_string",
-         "Enabled":"true"
-      }
-   ]
-}
+appfile - apk name to patch
 ------
-"ApkName":"apkname1.apk" - The name of apk(jar) file
-"SmaliFileName":"smali/com/android/mms/data/smaliname.smali" - the path to smali file
-"OriginalString":"original_string_to_replace_in_given_smali_file" - the string to search (and replace)
-"ReplaceString":"replacement_string" - replacement string
-"Enabled":"true" - enabled or disabled patch. If false - this patch will not be processed
+Available patch options:
+1. Replace string in smali file:
+   replaceinfile "%smali%/com/miui/backup/ui/LocalBackupFragment.smali" "const-string v6, \"KB, \"" "const-string v6, \" КБ \"";
+   replaceinfile "file_to_search_string" "string_to_replace" "replacement_string";
+2. Replace string in all smali files:
+   replaceinall "invoke-static {v4}, Lcom/android/providers/contacts/t9/f;->b(C)C" "invoke-static {v4}, Lcom/android/providers/contacts/t9/NXTUtils;->formatCharToT9(C)C"; 
+   replaceinfile "string_to_replace" "replacement_string";
+3. Replace method in smali file:
+   methodreplace "%smali%/com/android/providers/downloads/ui/DownloadUtils.smali" "%here%/methods/downloadproviderui_formatunitfix.m" "public static" "formatUnit" "Ljava/lang/String;" "Ljava/lang/String;";
+   methodreplace "file_to_search_method" "method_replacement_holder_file" "method_access" "method_name" "method_parameter_types" "method_return_types";
+4. Replace resource id in smali file:
+   methodstrings "%smali%/com/miui/video/HomeActivity.smali" "string" "my_video" "online_video" "" "";
+   methodstrings "file_to_search_string" "resource_type" "resource_name" "resource_replace_name" "additional-1" "additional-2";
+   Possible resource types: attr, drawable, mipmap, layout, anim, interpolator, xml, raw, array, bool, color, dimen, id, integer, style, string, plurals, menu.
+   additional-1 in resource name will be replaced by additional-2 while patching.
+   Example:
+   methodstrings "%smali%/com/miui/video/HomeActivity.smali" "string" "my_video" "online_video" "" "-";
+   This patch will search for R.string.my_video resource id (<string name="my_video">...</string>) in HomeActivity.smali file (res id is 0x7f...) and replace it with R.string.online_video, also "-" will be added to online_video id (0x7f...-)
+5. Copy file:
+   copyfile "%here%/NXTUtils.smali" "%smali%/com/android/providers/contacts/t9/NXTUtils.smali"; 
+   copyfile "file_from" "file_to"; 
+   
+%smali% - the "smali" directory of the decompiled apk.
+%here% - the directory where the patch file is located.
+--------
+jbart patching process:
+1. Decompile file sources
+2. Search for native patches (methods, strings etc.) configs, load them, patch files.
+3. Search for NXT patch_data config at the repository and at the local data/patches directory, load them, patch files. Online patch_data config has maximum priority.

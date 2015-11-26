@@ -1,3 +1,0 @@
-appfile <ThemeManager.apk>;
-methodreplace "%smali%/miui/resourcebrowser/activity/ResourceTabActivity.smali" "%here%/methods/thememanager_formattabfix.m" "protected" "getPresetPageTabConfig" "<none>" "Lmiui/resourcebrowser/model/PageTabConfig;";
-methodreplace "%smali%/miui/resourcebrowser/activity/ResourceTabActivity.smali" "%here%/methods/thememanager_formattabposfix.m" "protected" "getFragmentTabs" "<none>" "Ljava/util/List;";

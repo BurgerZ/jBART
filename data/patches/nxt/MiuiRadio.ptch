@@ -1,0 +1,4 @@
+appfile <MiuiRadio.apk>;
+# Replace one string by another in AndroidManifest.xml
+manifest "android:protectionLevel="signature"" "android:protectionLevel="normal"";
+manifest "<action android:name="miui.intent.action.APP_SETTINGS"/>" " ";

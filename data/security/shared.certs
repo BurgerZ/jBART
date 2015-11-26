@@ -1,2 +1,0 @@
-name="Contacts.apk" certificate="shared.x509.pem" private_key="shared.pk8"
-name="ContactsTests.apk" certificate="shared.x509.pem" private_key="shared.pk8"

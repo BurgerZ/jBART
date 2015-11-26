@@ -1,11 +1,11 @@
-langpack=Russian
+langpack=Русский
 
 #left menu
 menu_title_deodexer=Деодексер
-menu_title_rom_file=Файл прошивки
+menu_title_rom_file=Прошивка
 menu_title_translation_parser=Парсер перевода
 menu_title_patches=Патчи
-menu_title_single_file=Одиночные файлы
+menu_title_single_file=Приложение
 menu_title_ota_creator=OTA обновления
 menu_title_kernel_tools=Работа с Ядром
 menu_title_settings=Настройки

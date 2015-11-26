@@ -1,2 +1,0 @@
-appfile <core.jar>;
-methodreplace "%smali%/java/lang/String.smali" "%here%/methods/core_formatfix.m" "public static varargs" "format" "Ljava/lang/String;[Ljava/lang/Object;" "Ljava/lang/String;";
