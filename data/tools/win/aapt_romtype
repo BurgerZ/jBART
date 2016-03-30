@@ -1,0 +1,5 @@
+Place here aapt with name "aapt_%romtype%" to use while compiling.
+Example:
+To use aapt for MIUI v7 roms use file name: aapt_miui_v7 (the romtype is from rom.types.conf) 
+To use your custom aapt for single file operations use the name: aapt_single
+If no custom aapts found, then jbart will use built-in aapt from apktool.

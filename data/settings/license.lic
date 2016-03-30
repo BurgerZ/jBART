@@ -1,17 +1,14 @@
 ----- BEGIN LICENSE -----
-licensee=Public
-interface.cli=false
-interface.extcli=false
-interface.gui=true
-feature.debug=false
-feature.shex=false
-feature.fhex=false
-feature.kernel=false
+licensee.name=Public
+om.extcli=false
+om.debug=false
+om.shex=false
+om.fhex=false
 
 ----- END LICENSE -----
 ----- BEGIN SIGNATURE -----
-MCwCFDyaUVx9NRsqgmmD
-fWnJsvlKM4PRAhQ215Ez
-aT/JHXXLGGzUW4nASi03
-7Q==
+MCwCFB/9wmwJb8yQzskk
+mAoVpF437PgHAhRmTU0M
+t9DH3ZrxjIfv6OFc1kRX
+fA==
 ----- END SIGNATURE -----
