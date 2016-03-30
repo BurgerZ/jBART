@@ -62,6 +62,8 @@ translation_parser_btn_parse=Парсити
 #single file panel
 single_file_file=Файл
 single_file_select_file=Виберіть apk або jar файл (або zip для підпису)
+single_file_device_name=Пристрій
+single_file_device_name_description=(Використовується для пошуку патчів для застосування)
 single_file_decompile_smali=Декомпільований вихідний код (smali)
 single_file_install_frames=Встановлювати фреймворки (з теки data/frameworks_single)
 single_file_use_original_manifest=Використовувати оригінальний AndroidManifest.xml
@@ -69,6 +71,8 @@ single_file_sign_after_compile=Підписати після компіляці�
 single_file_auto_patch=Автоматично патчити при декомпіляції (з data/patches)
 single_file_aapt_5=Використовувати aapt для версій android 5.x (api > 20)
 single_file_verbose=Детальний лог компіляції
+single_file_write_debug_info=Додавати інфо. для відлагодження до smali (.local, .param, .line, etc.)
+single_file_keep_broken_res=Залишати пошкоджені ресурси. Треба виправити всі помилки вручну перед побудовою
 single_file_btn_patch=Патч
 single_file_btn_deodex=Деодекс
 single_file_btn_sign=Підписати
