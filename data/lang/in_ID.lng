@@ -1,0 +1,129 @@
+langpack=Indonesia
+
+#left menu
+menu_title_deodexer=Alat Deodex
+menu_title_rom_file=Berkas ROM
+menu_title_translation_parser=Pengurai Terjemahan
+menu_title_patches=Tambalan (patch)
+menu_title_single_file=Berkas Satuan
+menu_title_ota_creator=Pembuat OTA
+menu_title_kernel_tools=Alat Kernel
+menu_title_settings=Pengaturan
+menu_title_logs=Catatan
+menu_title_about=Tentang
+
+#deodexer panel
+deodexer_rom_file=Berkas ROM
+deodexer_select_rom_file=Pilih berkas ROM (*.zip)
+deodexer_rom_api=API ROM
+deodexer_deodex_folder=Deodex %s
+deodexer_use_inline_txt=Gunakan metode tabel inline.txt (pilihan -T). Berguna untuk rom MT/MTK.
+deodexer_use_inline_txt_description=<html>Kamu bisa menggunakan biner deodexerant untuk mendapatkan inline.txt dari perangkatmu.<br>(kemudian salin inline.txt ke direktori pengaturan jBart)
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=Jenis ROM
+rom_file_rom_file=Berkas ROM
+rom_file_select_rom_file=Pilih Berkas ROM (*.zip)
+rom_file_repo_main=Terjemahan
+rom_file_repo_extra=Berkas-berkas
+rom_file_repo_xml_patches=Patch XML
+rom_file_selected_repositories=Repositori terpilih:
+rom_file_use_patches=Gunakan Tambalan (patch NXT untuk smali, dll.)
+rom_file_local_patches=Gunakan tambalan yang ada (dari direktori data/patches)
+rom_file_auto_deodex=Deodex ROM otomatis
+rom_file_auto_compile=Kompil ROM
+rom_file_btn_compile=Kompil (Susun)
+rom_file_btn_recompile=Kompil Ulang
+rom_file_btn_decompile=Dekompil
+rom_file_btn_sign=Sign
+rom_file_btn_patch=Tambal berkas-berkas
+rom_file_btn_build_zip=Mulai Buat zip
+rom_file_btn_extract_zip=Ekstrak zip
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=Dir. APK
+translation_parser_select_decompiled_apk_dir=Pilih direktori file *.apk yang telah didekompil
+translation_parser_translation_dir=Terjemahan
+translation_parser_select_translation_dir=Pilih direktori file *.apk yang telah diterjemahkan
+translation_parser_language=Bahasa
+translation_parser_language_original=Asli:
+translation_parser_language_translation=Terjemahan:
+translation_parser_delete_obsolete=Hapus item yang telah usang dari terjemahan (susun ulang)
+translation_parser_delete_obsolete_description=PERHATIAN: pilihan ini akan menulis ulang berkas yang telah diterjemahkan!
+translation_parser_skipnotindefault=Lewati semua item "yang bukan standar" (item yang bukan termasuk file asli).
+translation_parser_skipnotindefault_description=<html><b>Dicentang:</b> semua item yang telah diterjemahkan yang bukan termasuk file asli akan di lewati (tidak ditambahkan pada translasi atau keluaran pengurai)<br><b>Tidak Dicentang:</b> hanya item dari config <b>translation.parser.skipnotindefault.conf</b> yang dilewati
+translation_parser_btn_parse=Uraikan
+
+#patches panel
+
+#single file panel
+single_file_file=Berkas
+single_file_select_file=Pilih apk atau berkas jar (atau ROM zip untuk di sign)
+single_file_apktool=Apktool
+single_file_device_name=Nama perangkat
+single_file_device_name_description=(Digunakan untuk mencari patch agar dapat diterapkan)
+single_file_decompile_smali=Dekompil Sumber (smali)
+single_file_install_frames=Pasang framework (letakkan berkas-berkas apk di data/frameworks_single)
+single_file_use_original_manifest=Gunakan AndroidManifest.xml yang asli
+single_file_sign_after_compile=Sign file setelah kompilasi (untuk aplikasi non-system, atau aslinya)
+single_file_auto_patch=Terapkan patch otomatis pada tahap dekompil (dari dir. data/patches)
+single_file_aapt_5=Gunakan biner aapt untuk android 5.x (api > 20)
+single_file_verbose=Verbose compiling output
+single_file_write_debug_info=Write out debug info in smali (.local, .param, .line, etc.)
+single_file_keep_broken_res=Tetap gunakan sumber yang rusak. Kamu akan membenahi kesalahan file secara manual sebelum penyusunan
+single_file_btn_patch=Tambal berkas
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Sign
+single_file_btn_decompile=Dekompil
+single_file_btn_compile=Kompil
+
+#ota creator panel
+ota_creator_old_rom=ROM Lama
+ota_creator_select_old_rom=Pilih berkas ROM lama (*.zip)
+ota_creator_new_rom=ROM Baru
+ota_creator_select_new_rom=Pilih berkas ROM baru (*.zip)
+ota_creator_out_folder=Folder keluaran
+ota_creator_select_out_folder=Pilih folder keluaran
+ota_creator_make_ota=Buat OTA
+
+#kernel tools panel
+kerneltools_kernel_file=Berkas Kernel
+kerneltools_select_kernel_file=Pilih file kernel (boot.img, recovery.img)
+kerneltools_btn_pack=Susun
+kerneltools_btn_unpack=Bongkar
+
+#settings panel
+settings_language=Bahasa
+settings_timezone=Zona Waktu
+settings_lang_tz_description=Nilai ini akan dimasukkan pada file /system/build.prop
+settings_alt_rom_name=Penamaan keluaran ROM alternatif
+settings_alt_rom_name_description=<html>Dicentang: muat penamaan dari <b>data/settings/alt_rom_name.conf</b><p>Tidak Dicentang: "bz_"+original_rom_name</html>
+settings_repo_download_main=Unduh repositori terjemahan utama
+settings_repo_download_extra=Unduh repositori ekstra (penggantian berkas)
+settings_repo_download_xml_patches=Unduh repositori patch XML
+settings_repo_redownload=Unduh ulang repositori (beberapa waktu)
+settings_decompile_all_apks=Dekompil semua apk pada ROM
+settings_decompile_smali_all_apks=Dekompil src dari beberapa apk pada ROM (smali)
+settings_zipalign=Zipalign apks/jars (penting untuk OTA)
+settings_sign_rom=Sign ROM setelah di kompil
+settings_delete_prj_directory=Hapus direktori pekerjaan yang telah di kompil
+settings_remember_recents=Ingat berkas dan direktori yang terakhir dibuka.
+settings_interface_language=<html>Bahasa<br>antarmuka
+
+#about panel
+about_author=Penggagas:
+about_graphics=Grafik:
+about_design_components=Komponen Java:
+about_tests_and_support=Ujicoba & Dukungan:
+about_libraries=Susunan and bagian-bagian dari kode sumber :
+about_donation=Donasi:
+about_licence_info=Lisensi:
+
+#common
+common_content_blocked=Konten diblokir!
+common_no_rights=Kamu tidak memiliki izin untuk melihat konten tersembunyi
+updater_btn_download=Unduh
+updater_update_available=Pembaruan Tersedia!
