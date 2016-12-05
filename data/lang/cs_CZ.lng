@@ -39,6 +39,8 @@ rom_file_btn_sign=Podpis
 rom_file_btn_patch=Patch soubory
 rom_file_btn_build_zip=Sestavit zip
 rom_file_btn_extract_zip=Extrahovat zip
+rom_file_use_patches=Použít patche (NXT patche pro smali, atd.)
+rom_file_local_patches=Použít místní patche (z adresáře data/patches) 
 
 #translation parser panel
 translation_parser_decompiled_apk_dir=APK Dir
@@ -69,6 +71,10 @@ single_file_btn_deodex=Deodex
 single_file_btn_sign=Podepsat
 single_file_btn_decompile=Dekompilovat
 single_file_btn_compile=Kompilovat
+single_file_device_name=Název zařízení
+single_file_device_name_description=(Použito k hledání patchů k použití)
+single_file_write_debug_info=Zapsat debug informace do smali (.local, .param, .line, atd.)
+single_file_keep_broken_res=Zachovat poškozené zdroje. Budete muset opravit všechny chyby ručně před stavbou ROM
 
 #ota tvůrce panel
 ota_creator_old_rom=Stará ROM
@@ -101,6 +107,7 @@ settings_zipalign=Zipalign apks/jars (důležité pro OTA)
 settings_sign_rom=Po kompilaci ROM soubor podepsat 
 settings_delete_prj_directory=Smazat adresář projektu po kompilaci
 settings_interface_language=<html>Jazyk<br>rozhraní
+settings_remember_recents=Pamatovat si poslední otevřené soubory a adresáře 
 
 #about panel
 about_author=Autor:
