@@ -34,6 +34,7 @@ rom_file_selected_repositories=Выбрано репозиториев:
 rom_file_use_patches=Использовать патчи (NXT патчи для smali и т.д.)
 rom_file_local_patches=Использовать локальные патчи (из папки data/patches)
 rom_file_auto_deodex=Автодеодекс прошивки
+rom_file_save_deodexed_rom=Сохранять деодексированную прошивку
 rom_file_auto_compile=Автокомпиляция прошивки
 rom_file_btn_compile=Компиляция
 rom_file_btn_recompile=Рекомпиляция

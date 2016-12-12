@@ -34,6 +34,7 @@ rom_file_selected_repositories=Selected repositories:
 rom_file_use_patches=Use patches (NXT patches for smali, etc.)
 rom_file_local_patches=Use local patches (from data/patches directory)
 rom_file_auto_deodex=Auto Deodex ROM
+rom_file_save_deodexed_rom=Save deodexed ROM
 rom_file_auto_compile=Auto Compile ROM
 rom_file_btn_compile=Compile
 rom_file_btn_recompile=Recompile
