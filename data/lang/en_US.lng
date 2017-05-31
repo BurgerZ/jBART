@@ -1,5 +1,8 @@
 langpack=English
 
+#main
+main_loading_args=Loading %s
+
 #left menu
 menu_title_deodexer=Deodexer
 menu_title_rom_file=ROM File
@@ -43,6 +46,7 @@ rom_file_btn_sign=Sign
 rom_file_btn_patch=Patch files
 rom_file_btn_build_zip=Build zip
 rom_file_btn_extract_zip=Extract zip
+use_hex_config=Use hex.filelist.conf
 
 #translation parser panel
 translation_parser_decompiled_apk_dir=APK Dir

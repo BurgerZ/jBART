@@ -1,5 +1,8 @@
 langpack=Русский
 
+#main
+main_loading_args=Загрузка %s
+
 #left menu
 menu_title_deodexer=Деодексер
 menu_title_rom_file=Прошивка
@@ -43,6 +46,7 @@ rom_file_btn_sign=Подписать
 rom_file_btn_patch=Патч
 rom_file_btn_build_zip=Запаковать
 rom_file_btn_extract_zip=Распаковать
+use_hex_config=Использовать hex.filelist.conf
 
 #translation parser panel
 translation_parser_decompiled_apk_dir=Папка с apk
