@@ -24,6 +24,7 @@ deodexer_use_inline_txt=Использовать inline.txt (опция -T). В�
 deodexer_use_inline_txt_description=<html>Вы можете использовать deodexerant (из папки data/tools/arm) для получения таблицы методов inline.txt с вашего телефона<br>(потом просто скопируйте inline.txt в папку settings jbart)
 deodexer_baksmali=
 deodexer_smali=
+deodexer_oat2dex_marshmallow_and_above=Использовать oat2dex.jar для деодексации Android Marshmallow и выше
 deodexer_btn_deodex=Деодекс
 
 #rom file panel

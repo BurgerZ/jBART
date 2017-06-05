@@ -24,6 +24,7 @@ deodexer_use_inline_txt=Use inline.txt methods table (-T option). Useful for MT/
 deodexer_use_inline_txt_description=<html>You can use deodexerant binary to get your own inline.txt from your device <br>(then just copy inline.txt to the jbart settings directory)
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
+deodexer_oat2dex_marshmallow_and_above=Use oat2dex.jar to deodex Android Marshmallow and above
 deodexer_btn_deodex=Deodex
 
 #rom file panel
