@@ -1,4 +1,6 @@
 langpack=Português
+#main
+main_loading_args=A carregar %s
 
 #left menu
 menu_title_deodexer=Deodexar
@@ -34,6 +36,7 @@ rom_file_selected_repositories=Repositórios seleccionados:
 rom_file_use_patches=Utilizar patches (Patches NXT para smali, etc.)
 rom_file_local_patches=Utilizar patches locais (da directoria data/patches)
 rom_file_auto_deodex=Auto Deodexar ROM
+rom_file_save_deodexed_rom=Guardar ROM deodexada
 rom_file_auto_compile=Auto Compilar ROM
 rom_file_btn_compile=Compilar
 rom_file_btn_recompile=Recompilar
@@ -42,6 +45,7 @@ rom_file_btn_sign=Assinar
 rom_file_btn_patch=Parchear ficheiros
 rom_file_btn_build_zip=Construir zip
 rom_file_btn_extract_zip=Extrair zip
+use_hex_config=Utilizar hex.filelist.conf
 
 #translation parser panel
 translation_parser_decompiled_apk_dir=Directoria das APK
