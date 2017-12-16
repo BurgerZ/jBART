@@ -1,5 +1,8 @@
 langpack=Greek
 
+#main
+main_loading_args=Φόρτωση του %s
+
 #left menu
 menu_title_deodexer=Deodexer
 menu_title_rom_file=Αρχείο ROM
@@ -21,6 +24,7 @@ deodexer_use_inline_txt=Χρήση πίνακα μεθόδων του inline.txt
 deodexer_use_inline_txt_description=<html>Μπορείτε να χρησιμοποιήσετε δυαδικό deodexerant για να πάρετε το δικό σας inline.txt από την συσκευή σας <br>(μετά απλά αντιγράψτε το inline.txt στον φάκελο ρυθμίσεων του jbart)
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
+deodexer_oat2dex_marshmallow_and_above=Χρήση oat2dex.jar για deodex Android Marshmallow και μεταγενέστερο
 deodexer_btn_deodex=Deodex
 
 #rom file panel
@@ -34,6 +38,7 @@ rom_file_selected_repositories=Επιλεγμένα αποθετήρια:
 rom_file_use_patches=Χρήση διορθώσεων (NXT διορθώσεις για smali, κλπ.)
 rom_file_local_patches=Χρήση τοπικών διορθώσεων (από τον φάκελο data/patches)
 rom_file_auto_deodex=Αυτόματο Deodex ROM
+rom_file_save_deodexed_rom=Αποθήκευση deodexed ROM
 rom_file_auto_compile=Αυτόματο Compile ROM
 rom_file_btn_compile=Compile
 rom_file_btn_recompile=Recompile
