@@ -2,6 +2,41 @@ langpack=English
 
 #main
 main_loading_args=Loading %s
+main_default=Default
+
+#progressbar
+
+#file dialogs
+FileChooser.lookInLabelText=Look in:
+FileChooser.saveInLabelText=Save in:
+FileChooser.upFolderToolTipText=Up Folder
+FileChooser.upFolderAccessibleName=Up Folder
+FileChooser.homeFolderToolTipText=Home Folder
+FileChooser.homeFolderAccessibleName=Home Folder
+FileChooser.newFolderToolTipText=New Folder
+FileChooser.newFolderAccessibleName=New Folder
+FileChooser.listViewButtonToolTipText=List View
+FileChooser.listViewButtonAccessibleName=List View
+FileChooser.detailsViewButtonToolTipText=Details
+FileChooser.detailsViewButtonAccessibleName=Details
+FileChooser.fileNameLabelText=File Name
+FileChooser.filesOfTypeLabelText=Files of Type
+FileChooser.fileNameHeaderText=Name
+FileChooser.fileSizeHeaderText=File Size
+FileChooser.fileTypeHeaderText=File Type
+FileChooser.fileDateHeaderText=File Date
+FileChooser.fileAttrHeaderText=File Attr
+FileChooser.cancelButtonText=Cancel
+FileChooser.cancelButtonToolTipText=Cancel
+FileChooser.openButtonText=Open
+FileChooser.openButtonToolTipText=Open
+FileChooser.saveButtonText=Save
+FileChooser.saveButtonToolTipText=Save
+FileChooser.updateButtonText=Update
+FileChooser.updateButtonToolTipText=Update
+FileChooser.helpButtonText=Help
+FileChooser.helpButtonToolTipText=Help
+FileChooser.acceptAllFileFilterText=All files
 
 #left menu
 menu_title_deodexer=Deodexer
@@ -102,6 +137,7 @@ kerneltools_btn_pack=Pack
 kerneltools_btn_unpack=Unpack
 
 #settings panel
+settings_changelog=Changelog:
 settings_language=Language
 settings_timezone=TimeZone
 settings_lang_tz_description=This values will be written to the /system/build.prop file

@@ -2,6 +2,41 @@ langpack=Русский
 
 #main
 main_loading_args=Загрузка %s
+main_default=По умолчанию
+
+#progressbar
+
+#file dialogs
+FileChooser.lookInLabelText=Открыть в:
+FileChooser.saveInLabelText=Сохранить в:
+FileChooser.upFolderToolTipText=На уровень вверх
+FileChooser.upFolderAccessibleName=На уровень вверх
+FileChooser.homeFolderToolTipText=Домашняя папка
+FileChooser.homeFolderAccessibleName=Домашняя папка
+FileChooser.newFolderToolTipText=Новая папка
+FileChooser.newFolderAccessibleName=Новая папка
+FileChooser.listViewButtonToolTipText=Список
+FileChooser.listViewButtonAccessibleName=Список
+FileChooser.detailsViewButtonToolTipText=Подробно
+FileChooser.detailsViewButtonAccessibleName=Подробно
+FileChooser.fileNameLabelText=Имя файла
+FileChooser.filesOfTypeLabelText=Типы файлов
+FileChooser.fileNameHeaderText=Имя
+FileChooser.fileSizeHeaderText=Размер
+FileChooser.fileTypeHeaderText=Тип
+FileChooser.fileDateHeaderText=Дата
+FileChooser.fileAttrHeaderText=Аттрибуты
+FileChooser.cancelButtonText=Отмена
+FileChooser.cancelButtonToolTipText=Отмена
+FileChooser.openButtonText=Открыть
+FileChooser.openButtonToolTipText=Открыть
+FileChooser.saveButtonText=Сохранить
+FileChooser.saveButtonToolTipText=Сохранить
+FileChooser.updateButtonText=Обновить
+FileChooser.updateButtonToolTipText=Обновить
+FileChooser.helpButtonText=Помощь
+FileChooser.helpButtonToolTipText=Помощь
+FileChooser.acceptAllFileFilterText=Все файлы
 
 #left menu
 menu_title_deodexer=Деодексер
@@ -102,6 +137,7 @@ kerneltools_btn_pack=Запаковать
 kerneltools_btn_unpack=Распаковать
 
 #settings panel
+settings_changelog=Список изменений:
 settings_language=Язык
 settings_timezone=Час. пояс
 settings_lang_tz_description=Значения этих полей (язык и часовой пояс) будут записаны в build.prop
