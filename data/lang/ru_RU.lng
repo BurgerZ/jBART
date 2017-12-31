@@ -3,6 +3,18 @@ langpack=Русский
 #main
 main_loading_args=Загрузка %s
 main_default=По умолчанию
+main_dialog_title_information=Информация
+main_done=Готово!
+main_out_rom=Прошивка:
+main_md5=MD5:
+main_elapsed=Время:
+main_decompilation_elapsed=Декомпиляция:
+main_compilation_elapsed=Компиляция:
+main_errors=Ошибки:
+
+#Logger
+logger_turn_off_loging=Выключить ведение журнала (может ускорить сборку)
+logger_write_log_to_console=Писать журнал в консоль (может замедлить сборку)
 
 #progressbar
 

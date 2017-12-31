@@ -3,6 +3,18 @@ langpack=English
 #main
 main_loading_args=Loading %s
 main_default=Default
+main_dialog_title_information=Information
+main_done=Done!
+main_out_rom=Rom:
+main_md5=MD5:
+main_elapsed=Elapsed time:
+main_decompilation_elapsed=Decompilation:
+main_compilation_elapsed=Compilation:
+main_errors=Errors:
+
+#Logger
+logger_turn_off_loging=Turn off logging (can improve performance)
+logger_write_log_to_console=Write log to console (can slow down build process)
 
 #progressbar
 
