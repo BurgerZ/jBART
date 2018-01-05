@@ -1,0 +1,40 @@
+{
+  "action": "recompile",
+  "usehexconfig": true,
+  "outputdir": "/home/user/jbart/output",
+  "workingdir": "",
+  "romfile": "/home/user/roms/rom_deodexed.zip",
+  "repomain": [
+    "github::BurgerZ/MIUI-v5-Translation",
+    "github::MishFdM/MIUI_V5_Italy"
+  ],
+  "repoextra": [
+    "github::BurgerZ/MIUI-v5-extra"
+  ],
+  "repopatch": [
+    
+  ],
+  "tools": {
+    "apktool": "",
+    "baksmali": "",
+    "smali": "",
+    "oat2dex": ""
+  },
+  "deodex": {
+    "autodeodex": false,
+    "api": 0,
+    "useinline": false,
+    "deodexframework": true,
+    "deodexapp": true,
+    "deodexprivapp": true,
+    "deodexvendor": true,
+    "deodexplugin": true
+    "deodexoem": true
+  }
+  "logger": {
+    "enabled": true,
+    "writeconsole": true,
+    "writefile": true,
+    "writefilebuffered": true
+  }
+}

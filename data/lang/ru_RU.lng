@@ -15,6 +15,9 @@ main_errors=Ошибки:
 #Logger
 logger_turn_off_loging=Выключить ведение журнала (может ускорить сборку)
 logger_write_log_to_console=Писать журнал в консоль (может замедлить сборку)
+logger_write_log_to_file=Писать журнал в файл
+logger_write_log_to_file_with_buffer=Использовать буфер для записи журнала в файл
+logger_write_log_to_file_with_buffer_description=<html><b>Внимание:</b> быстрее, но журнал пропадет при крахе JVM
 
 #progressbar
 
