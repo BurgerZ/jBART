@@ -28,9 +28,9 @@
     "deodexapp": true,
     "deodexprivapp": true,
     "deodexvendor": true,
-    "deodexplugin": true
+    "deodexplugin": true,
     "deodexoem": true
-  }
+  },
   "logger": {
     "enabled": true,
     "writeconsole": true,
