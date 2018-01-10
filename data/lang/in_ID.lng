@@ -1,5 +1,58 @@
 langpack=Indonesia
 
+#main
+main_loading_args=Memuat %s
+main_default=Bawaan
+main_dialog_title_information=Informasi
+main_done=Kelar!
+main_out_rom=Rom:
+main_md5=MD5:
+main_elapsed=Waktu berlalu:
+main_decompilation_elapsed=Dekompilasi:
+main_compilation_elapsed=Kompilasi:
+main_errors=Gagal:
+
+#Logger
+logger_turn_off_loging=Matikan pencatatan log (dapat meningkatkan performa)
+logger_write_log_to_console=Tulis log pada konsol(memperlampat proses build)
+logger_write_log_to_file=Ekspor log pada sebuah file
+logger_write_log_to_file_with_buffer=Buffered writing log entries to file
+logger_write_log_to_file_with_buffer_description=<html><b>Warning:</b> faster, but log entries will be lost on JVM crash
+
+#progressbar
+
+#file dialogs
+FileChooser.lookInLabelText=Lihat di:
+FileChooser.saveInLabelText=Simpan di:
+FileChooser.upFolderToolTipText=Up Folder
+FileChooser.upFolderAccessibleName=Up Folder
+FileChooser.homeFolderToolTipText=Home Folder
+FileChooser.homeFolderAccessibleName=Home Folder
+FileChooser.newFolderToolTipText=Folder Baru
+FileChooser.newFolderAccessibleName=Folder Baru
+FileChooser.listViewButtonToolTipText=List View
+FileChooser.listViewButtonAccessibleName=List View
+FileChooser.detailsViewButtonToolTipText=Detail
+FileChooser.detailsViewButtonAccessibleName=Detail
+FileChooser.fileNameLabelText=Nama Berkas
+FileChooser.filesOfTypeLabelText=Files of Type
+FileChooser.fileNameHeaderText=Nama
+FileChooser.fileSizeHeaderText=File Size
+FileChooser.fileTypeHeaderText=File Type
+FileChooser.fileDateHeaderText=File Date
+FileChooser.fileAttrHeaderText=File Attr
+FileChooser.cancelButtonText=Batal
+FileChooser.cancelButtonToolTipText=Batal
+FileChooser.openButtonText=Buka
+FileChooser.openButtonToolTipText=Buka
+FileChooser.saveButtonText=Simpan
+FileChooser.saveButtonToolTipText=Simpan
+FileChooser.updateButtonText=Perbarui
+FileChooser.updateButtonToolTipText=Perbarui
+FileChooser.helpButtonText=Bantuan
+FileChooser.helpButtonToolTipText=Bantuan
+FileChooser.acceptAllFileFilterText=Semua Berkas
+
 #left menu
 menu_title_deodexer=Alat Deodex
 menu_title_rom_file=Berkas ROM
