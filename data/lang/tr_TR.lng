@@ -1,111 +1,173 @@
 langpack=Turkish
 
+#main
+main_loading_args=Yükleniyor: %s
+main_default=Varsayılan
+main_dialog_title_information=Bilgi
+main_done=Bitti
+main_out_rom=Rom:
+main_md5=MD5:
+main_elapsed=Geçen zaman:
+main_decompilation_elapsed=Parçalama:
+main_compilation_elapsed=Toplama:
+main_errors=Hatalar:
+
+#Logger
+logger_turn_off_loging=Günlük kaydını kapat (Performansı artırabilir)
+logger_write_log_to_console=Konsola günlüğü yaz (İnşa sürecini yavaşlatabilir)
+logger_write_log_to_file=Write log entries to file
+logger_write_log_to_file_with_buffer=Buffered writing log entries to file
+logger_write_log_to_file_with_buffer_description=<html><b>Warning:</b> faster, but log entries will be lost on JVM crash
+
+#progressbar
+
+#file dialogs
+FileChooser.lookInLabelText=Kaydetme konumu:
+FileChooser.saveInLabelText=Kaydetme konumu:
+FileChooser.upFolderToolTipText=Yukarı klasör
+FileChooser.upFolderAccessibleName=Yukarı klasör
+FileChooser.homeFolderToolTipText=Ana klasör
+FileChooser.homeFolderAccessibleName=Ana klasör
+FileChooser.newFolderToolTipText=Yeni klasör
+FileChooser.newFolderAccessibleName=Yeni klasör
+FileChooser.listViewButtonToolTipText=Liste görünümü
+FileChooser.listViewButtonAccessibleName=Liste görünümü
+FileChooser.detailsViewButtonToolTipText=Detaylar
+FileChooser.detailsViewButtonAccessibleName=Detaylar
+FileChooser.fileNameLabelText=Dosya adı
+FileChooser.filesOfTypeLabelText=Dosya türü
+FileChooser.fileNameHeaderText=Ad
+FileChooser.fileSizeHeaderText=Dosya boyutu
+FileChooser.fileTypeHeaderText=Dosya türü
+FileChooser.fileDateHeaderText=Dosya verisi
+FileChooser.fileAttrHeaderText=Dosya niteliği
+FileChooser.cancelButtonText=İptal et
+FileChooser.cancelButtonToolTipText=İptal et
+FileChooser.openButtonText=Aç
+FileChooser.openButtonToolTipText=Aç
+FileChooser.saveButtonText=Kaydet
+FileChooser.saveButtonToolTipText=Kaydet
+FileChooser.updateButtonText=Güncelle
+FileChooser.updateButtonToolTipText=Güncelle
+FileChooser.helpButtonText=Yardım
+FileChooser.helpButtonToolTipText=Yardım
+FileChooser.acceptAllFileFilterText=Tüm dosyalar
+
 #left menu
-menu_title_deodexer=Deodex aracı
-menu_title_rom_file=ROM Dosyası
+menu_title_deodexer=Deodexer
+menu_title_rom_file=Rom dosyası
 menu_title_translation_parser=Çeviri ayrıştırıcı
 menu_title_patches=Yamalar
-menu_title_single_file=Tek Dosya
-menu_title_ota_creator=OTA aracı
-menu_title_kernel_tools=Kernel Araçları
+menu_title_single_file=Tek dosya
+menu_title_ota_creator=Ota oluşturucu
+menu_title_kernel_tools=Çekirdek araçları
 menu_title_settings=Ayarlar
 menu_title_logs=Kayıtlar
 menu_title_about=Hakkında
 
 #deodexer panel
-deodexer_rom_file=ROM Dosyası
-deodexer_select_rom_file=ROM Dosyasını Seçin (*.zip)
-deodexer_rom_api=ROM API
-deodexer_deodex_folder=Deodex %s
-deodexer_use_inline_txt=inline.txt metod tablosunu Kullan (-T seçeneği) MT/MTK romları için yararlı
-deodexer_use_inline_txt_description=<html>Kendi cihazınızdan inline.txt almak için deodexerant  kullanabilirsiniz <br>(inline.txt dosyasını jbart ayarları dizinine kopyalayın)
+deodexer_rom_file=Rom dosyası
+deodexer_select_rom_file=Rom dosyasını seçin (*.zip)
+deodexer_rom_api=Rom arayüzü
+deodexer_deodex_folder=Deodex: %s
+deodexer_use_inline_txt=Inline.txt metod tablosunu kullan
+deodexer_use_inline_txt_description=<html>Cihazınızdan kendi inline.txt'i almak için deodexerantı kullanabilirsiniz <br>(inline.txt dosyasını jbart ayarları dizinine kopyalayın)
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
+deodexer_oat2dex_marshmallow_and_above=Android marshmallow ve üst sürüm kodunu çözmek için oat2dex.jar kullan
 deodexer_btn_deodex=Deodex
 
 #rom file panel
-rom_file_rom_type=ROM türü
-rom_file_rom_file=ROM Dosyası
-rom_file_select_rom_file=ROM Dosyasını Seçin (*.zip)
+rom_file_rom_type=Rom türü
+rom_file_rom_file=Rom dosyası
+rom_file_select_rom_file=Rom dosyasını seçin (*.zip)
 rom_file_repo_main=Çeviri
 rom_file_repo_extra=Dosyalar
-rom_file_repo_xml_patches=XML Yamalar
+rom_file_repo_xml_patches=Xml yamaları
 rom_file_selected_repositories=Seçili kaynaklar:
-rom_file_use_patches=Yamaları kullan (smali için NXT yamaları vb.)
+rom_file_use_patches=Yamaları kullan (smali için NXT yamalarını içerir)
 rom_file_local_patches=Yerel yamaları kullan (data/patches dizininden)
-rom_file_auto_deodex=ROM'u Otomatik Deodexle
-rom_file_auto_compile=ROM'u Otomatik Derle
-rom_file_btn_compile=Derle
-rom_file_btn_recompile=Tekrar derle
-rom_file_btn_decompile=Çözümle
+rom_file_auto_deodex=Rom'u otomatik deodexle
+rom_file_save_deodexed_rom=Deodex Rom'u kaydet
+rom_file_auto_compile=Rom'u otomatik topla
+rom_file_btn_compile=Topla
+rom_file_btn_recompile=Tekrar topla
+rom_file_btn_decompile=Parçala
 rom_file_btn_sign=İmzala
 rom_file_btn_patch=Yama dosyaları
 rom_file_btn_build_zip=Zip arşivi oluştur
 rom_file_btn_extract_zip=Zip arşivini çıkar
+use_hex_config=hex.filelist.conf kullan
 
 #translation parser panel
-translation_parser_decompiled_apk_dir=APK Dizini
-translation_parser_select_decompiled_apk_dir=Çözümlenmiş *.apk dosyaları dizinini seç
+translation_parser_decompiled_apk_dir=Apk dizini
+translation_parser_select_decompiled_apk_dir=Apk dosyası dizinini seçin
 translation_parser_translation_dir=Çeviri dizini
-translation_parser_select_translation_dir=Çevirisi yapılmış *.apk dosyaları dizini
+translation_parser_select_translation_dir=Çevirisi yapılmış *.apk dosyası dizini
 translation_parser_language=Dil
 translation_parser_language_original=Orjinal:
 translation_parser_language_translation=Çeviri:
-translation_parser_delete_obsolete=Çeviriden eski öğeleri silin (yeniden inşa etmek gerekir)
-translation_parser_delete_obsolete_description=DİKKAT: Bu seçenek çeviri dosyalarını yeniden yazacak!
-translation_parser_skipnotindefault="Ön tanımlı olmayan" öğelerin tümünü geç (orijinal dosyaları olmayan öğeler)
-translation_parser_skipnotindefault_description=<html><b>İşaretli:</b> Orijinal xml dosyaları olmayan tüm tercüme öğeleri atlanır (çeviri veya çözümleyici ilave olmayacak)<br><b>İşaretlenmemiş:</b> yapılandırma sadece öğeler için <b>Çeviri ayrıştırıcı default.conf içinde olmayanları atlar</b>
+translation_parser_delete_obsolete=Çeviriden eski öğeleri sil (Yeniden oluşturulur)
+translation_parser_delete_obsolete_description=Dikkat: Bu seçenek çeviri dosyalarını yeniden yazacak
+translation_parser_skipnotindefault=Ön tanımlı olmayan öğelerin tümünü geç (Orjinal dosyaları olmayan öğeler)
+translation_parser_skipnotindefault_description=<html><b>İşaretli:</b> Orijinal xml dosyaları olmayan tüm tercüme öğeleri atlanır (Çeviri veya çözümleyici ilave olmayacak)<br><b>İşaretlenmemiş:</b> yapılandırma sadece öğeler için <b>Çeviri ayrıştırıcı default.conf içinde olmayanları atlar</b>
 translation_parser_btn_parse=Ayrıştır
 
 #patches panel
 
 #single file panel
 single_file_file=Dosya
-single_file_select_file=Apk veya jar dosyasını seç (veya imzalamak için ROM zip'i)
-single_file_decompile_smali=Kaynağı Çözümle (smali)
-single_file_install_frames=Framework dosyalarını kur (apk'lar data/frameworks_single dizininde)
-single_file_use_original_manifest=Orjinal Android Manifest.xml Kullan
-single_file_sign_after_compile=Derlemeden sonra imzala (sistem harici uygulamalar için veya orjinali koru)
-single_file_auto_patch=Yamaları çözümleme esnasında uygula (data/patches dizininden)
-single_file_aapt_5=Android 5.x için aapt binary kullan (api > 20)
-single_file_verbose=Ayrıntılı birleştirme çıktısı
+single_file_select_file=Apk veya jar dosyası seçin
+single_file_apktool=Apktool
+single_file_device_name=Cihaz adı
+single_file_device_name_description=(Arama ve yamaları uygulamak için kullanılan)
+single_file_decompile_smali=Kaynakları parçala (smali)
+single_file_install_frames=Framework dosyalarını kur (Konum: data/frameworks_single)
+single_file_use_original_manifest=Orjinal AndroidManifest.xml dosyasını kullan
+single_file_sign_after_compile=Toplama sonrası dosyayı imzala (Sistem harici uygulamalar içindir)
+single_file_auto_patch=Yamaları otomatik uygula
+single_file_aapt_5=Android 5.x için AAPT binary kullan (API> 20)
+single_file_verbose=Ayrıntılı toplama çıktısı
+single_file_write_debug_info=Smali ufak hata ayıklama bilgisi dışında yaz (.local, .param, .line, etc.)
+single_file_keep_broken_res=Bozuk kaynakları tut. Yapı öncesi el ile tüm hataları düzeltme zorunda kalacaksınız
 single_file_btn_patch=Yama dosyaları
 single_file_btn_deodex=Deodex
 single_file_btn_sign=İmzala
-single_file_btn_decompile=Çözümle
-single_file_btn_compile=Derle
+single_file_btn_decompile=Parçala
+single_file_btn_compile=Topla
 
 #ota creator panel
-ota_creator_old_rom=Eski ROM
-ota_creator_select_old_rom=Eski ROM dosyasını seç (*.zip)
-ota_creator_new_rom=Yeni ROM
-ota_creator_select_new_rom=Yeni ROM dosyasını seç (*.zip)
+ota_creator_old_rom=Eski Rom
+ota_creator_select_old_rom=Eski Rom dosyasını seçin (*.zip)
+ota_creator_new_rom=Yeni Rom
+ota_creator_select_new_rom=Yeni Rom dosyasını seçin (*.zip)
 ota_creator_out_folder=Çıkış dizini
-ota_creator_select_out_folder=Çıkış dizinini seç
-ota_creator_make_ota=OTA Hazırla
+ota_creator_select_out_folder=Çıkış klasörünü seçin
+ota_creator_make_ota=Ota oluştur
 
 #kernel tools panel
-kerneltools_kernel_file=Kernel Dosyası
-kerneltools_select_kernel_file=Kernel dosyasını seç (boot.img, recovery.img)
+kerneltools_kernel_file=Çekirdek dosyası
+kerneltools_select_kernel_file=Çekirdek dosyasını seçin (boot.img, recovery.img)
 kerneltools_btn_pack=Paketle
 kerneltools_btn_unpack=Paketi aç
 
 #settings panel
+settings_changelog=Kayıt günlüğü:
 settings_language=Dil
-settings_timezone=Zaman Dilimi
-settings_lang_tz_description=Bu değerler /system/build.prop dosyasına yazılır
-settings_alt_rom_name=Alternatif ROM isimlendirme
+settings_timezone=Zaman dilimi
+settings_lang_tz_description=Bu değerler system/build.prop dosyasına yazılır
+settings_alt_rom_name=Alternatif adlandırma
 settings_alt_rom_name_description=<html>İşaretli: İsimlendime kurallarını buradan <b>data/settings/alt_rom_name.conf</b><p>İşaretlenmemiş: "bz_"+original_rom_name</html>
 settings_repo_download_main=Ana çeviri deposunu indir
-settings_repo_download_extra=Extra deposunu indir (dosya değiştirilir)
+settings_repo_download_extra=Ekstra depo indir (Dosya değiştirilir)
 settings_repo_download_xml_patches=Xml yamaları deposunu indir
-settings_repo_redownload=Depoları tekrar indir (her seferinde)
-settings_decompile_all_apks=ROM'daki tüm apk'ları çözümle
-settings_decompile_smali_all_apks=Her seferinde apk dosyalarını kaynaktan çözümle (smali)
-settings_zipalign=Zipalign apks/jars (OTA için önemli)
-settings_sign_rom=ROM'u derledikten sonra imzala
-settings_delete_prj_directory=Proje dizinini derlemeden sonra sil
-settings_remember_recents=Son açılan dosya ve dizinleri hatırla
+settings_repo_redownload=Depoyu tekrar indir (Her zaman)
+settings_decompile_all_apks=Rom'daki tüm apk'lari parçala
+settings_decompile_smali_all_apks=Her seferinde apk dosyalarını kaynaktan parçala (smali)
+settings_zipalign=Apk ve Jar'ları hizala (Ota için önemli)
+settings_sign_rom=Toplama sonrası Rom dosyasını imzala
+settings_delete_prj_directory=Toplama sonrası proje dizinini sil
+settings_remember_recents=Son açılan dosya ve dizi hatırla
 settings_interface_language=<html>Arayüz<br>dili
 
 #about panel
@@ -118,7 +180,7 @@ about_donation=Bağış:
 about_licence_info=Lisans:
 
 #common
-common_content_blocked=İçerik Engelli
+common_content_blocked=İçerik engelli
 common_no_rights=Gizli içeriği görmeye yetkiniz yok
 updater_btn_download=İndir
-updater_update_available=Güncelleme mevcut!
+updater_update_available=Güncellemeniz var
