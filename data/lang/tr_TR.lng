@@ -14,10 +14,10 @@ main_errors=Hatalar:
 
 #Logger
 logger_turn_off_loging=Günlük kaydını kapat (Performansı artırabilir)
-logger_write_log_to_console=Konsola günlüğü yaz (İnşa sürecini yavaşlatabilir)
-logger_write_log_to_file=Write log entries to file
-logger_write_log_to_file_with_buffer=Buffered writing log entries to file
-logger_write_log_to_file_with_buffer_description=<html><b>Warning:</b> faster, but log entries will be lost on JVM crash
+logger_write_log_to_console=Konsola günlük kaydını yaz (İnşa sürecini yavaşlatabilir)
+logger_write_log_to_file=Günlük kaydını dosyaya yaz
+logger_write_log_to_file_with_buffer=Arabellek günlük kaydını dosyaya yaz
+logger_write_log_to_file_with_buffer_description=<html><b>Uyarı:</b> Günlük kayıtları JVM çöktüğünde kaybolacaktır
 
 #progressbar
 
