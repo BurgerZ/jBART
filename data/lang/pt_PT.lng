@@ -1,6 +1,23 @@
 langpack=Português
+
 #main
 main_loading_args=A carregar %s
+main_default=Padrão
+main_dialog_title_information=Informação
+main_done=Terminado!
+main_out_rom=Rom:
+main_md5=MD5:
+main_elapsed=Tempo decorrido:
+main_decompilation_elapsed=Decompilação:
+main_compilation_elapsed=Compilação:
+main_errors=Erros:
+
+#Logger
+logger_turn_off_loging=Desligar registo (pode melhorar desempenho)
+logger_write_log_to_console=Gravar registo na consola (pode atrasar o processo de compilação)
+logger_write_log_to_file=Gravar registo de entrada no ficheiro
+logger_write_log_to_file_with_buffer=Não permitir registo no ficheiro
+logger_write_log_to_file_with_buffer_description=<html><b>Aviso:</b> é mais rápido, mas as entradas de registo serão perdidas em JVM e crashar
 
 #left menu
 menu_title_deodexer=Deodexar
@@ -23,6 +40,7 @@ deodexer_use_inline_txt=Utilizar métodos inline.txt (-T option). Útil para rom
 deodexer_use_inline_txt_description=<html>Pode utilizar o binário deodexerant para obter o seu próprio inline.txt <br>(basta copiar inline.txt para a directoria das definições jbart)
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
+deodexer_oat2dex_marshmallow_and_above=Utilizar oat2dex.jar para deodexar Android Marshmallow ou versões anteriores
 deodexer_btn_deodex=Deodex
 
 #rom file panel
@@ -100,10 +118,11 @@ kerneltools_btn_pack=Compactar
 kerneltools_btn_unpack=Descompactar
 
 #settings panel
+settings_changelog=Notas da versão:
 settings_language=Idioma
 settings_timezone=Fuso horário
 settings_lang_tz_description=Estes valores serão guardados no ficheiro build.prop em /system
-settings_alt_rom_name=Renomear nome da ROM
+settings_alt_rom_name=Renomear ROM
 settings_alt_rom_name_description=<html>Verificado: carregar regras do nome de <b>data/settings/alt_rom_name.conf</b><p>Não verificado: "bz_"+original_rom_name</html>
 settings_repo_download_main=Transferir repositório Principal da tradução
 settings_repo_download_extra=Transferir repositório de Extras (substitui ficheiros)
