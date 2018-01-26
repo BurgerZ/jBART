@@ -17,7 +17,41 @@ logger_turn_off_loging=Desligar registo (pode melhorar desempenho)
 logger_write_log_to_console=Gravar registo na consola (pode atrasar o processo de compilação)
 logger_write_log_to_file=Gravar registo de entrada no ficheiro
 logger_write_log_to_file_with_buffer=Não permitir registo no ficheiro
-logger_write_log_to_file_with_buffer_description=<html><b>Aviso:</b> é mais rápido, mas as entradas de registo serão perdidas em JVM e crashar
+logger_write_log_to_file_with_buffer_description=<html><b>Aviso:</b> é mais rápido, mas as entradas de registo serão perdidas em JVM crash
+
+#progressbar
+
+#file dialogs
+FileChooser.lookInLabelText=Visualizar em:
+FileChooser.saveInLabelText=Guardar em:
+FileChooser.upFolderToolTipText=Pasta de cima
+FileChooser.upFolderAccessibleName=Pasta de cima
+FileChooser.homeFolderToolTipText=Pasta de origem
+FileChooser.homeFolderAccessibleName=Pasta de origem
+FileChooser.newFolderToolTipText=Nova pasta
+FileChooser.newFolderAccessibleName=Nova pasta
+FileChooser.listViewButtonToolTipText=Mostrar lista
+FileChooser.listViewButtonAccessibleName=Mostrar lista
+FileChooser.detailsViewButtonToolTipText=Detalhes
+FileChooser.detailsViewButtonAccessibleName=Detalhes
+FileChooser.fileNameLabelText=Nome do ficheiro
+FileChooser.filesOfTypeLabelText=Tipo de ficheiros
+FileChooser.fileNameHeaderText=Name
+FileChooser.fileSizeHeaderText=Tamanho do ficheiro
+FileChooser.fileTypeHeaderText=Tipo de ficheiro
+FileChooser.fileDateHeaderText=Data do ficheiro
+FileChooser.fileAttrHeaderText=Ficheiro Attr
+FileChooser.cancelButtonText=Cancelar
+FileChooser.cancelButtonToolTipText=Cancelar
+FileChooser.openButtonText=Abrir
+FileChooser.openButtonToolTipText=Abrir
+FileChooser.saveButtonText=Guardar
+FileChooser.saveButtonToolTipText=Guardar
+FileChooser.updateButtonText=Atualizar
+FileChooser.updateButtonToolTipText=Actualizar
+FileChooser.helpButtonText=Ajuda
+FileChooser.helpButtonToolTipText=Ajuda
+FileChooser.acceptAllFileFilterText=Todos os ficheiros
 
 #left menu
 menu_title_deodexer=Deodexar
@@ -38,6 +72,7 @@ deodexer_rom_api=API da ROM
 deodexer_deodex_folder=Deodexar %s
 deodexer_use_inline_txt=Utilizar métodos inline.txt (-T option). Útil para roms MT/MTK
 deodexer_use_inline_txt_description=<html>Pode utilizar o binário deodexerant para obter o seu próprio inline.txt <br>(basta copiar inline.txt para a directoria das definições jbart)
+deodexer_process_deletefiles_before_deodex=Processe o ficheiro de configuração deletefiles.conf antes de deodexar
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
 deodexer_oat2dex_marshmallow_and_above=Utilizar oat2dex.jar para deodexar Android Marshmallow ou versões anteriores
@@ -121,7 +156,7 @@ kerneltools_btn_unpack=Descompactar
 settings_changelog=Notas da versão:
 settings_language=Idioma
 settings_timezone=Fuso horário
-settings_lang_tz_description=Estes valores serão guardados no ficheiro build.prop em /system
+settings_lang_tz_description=Estes valores vão ser guardados no ficheiro build.prop em /system
 settings_alt_rom_name=Renomear ROM
 settings_alt_rom_name_description=<html>Verificado: carregar regras do nome de <b>data/settings/alt_rom_name.conf</b><p>Não verificado: "bz_"+original_rom_name</html>
 settings_repo_download_main=Transferir repositório Principal da tradução
