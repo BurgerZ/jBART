@@ -14,10 +14,10 @@ main_errors=Hatalar:
 
 #Logger
 logger_turn_off_loging=Günlük kaydını kapat (Performansı artırabilir)
-logger_write_log_to_console=Konsola günlüğü yaz (İnşa sürecini yavaşlatabilir)
-logger_write_log_to_file=Write log entries to file
-logger_write_log_to_file_with_buffer=Buffered writing log entries to file
-logger_write_log_to_file_with_buffer_description=<html><b>Warning:</b> faster, but log entries will be lost on JVM crash
+logger_write_log_to_console=Konsola günlük kaydını yaz (İnşa sürecini yavaşlatabilir)
+logger_write_log_to_file=Günlük kaydını dosyaya yaz
+logger_write_log_to_file_with_buffer=Arabellek günlük kaydını dosyaya yaz
+logger_write_log_to_file_with_buffer_description=<html><b>Uyarı:</b> Günlük kayıtları JVM çöktüğünde kaybolacaktır
 
 #progressbar
 
@@ -72,6 +72,7 @@ deodexer_rom_api=Rom arayüzü
 deodexer_deodex_folder=Deodex: %s
 deodexer_use_inline_txt=Inline.txt metod tablosunu kullan
 deodexer_use_inline_txt_description=<html>Cihazınızdan kendi inline.txt'i almak için deodexerantı kullanabilirsiniz <br>(inline.txt dosyasını jbart ayarları dizinine kopyalayın)
+deodexer_process_deletefiles_before_deodex=Deodex işlemi yapmadan önce deletefiles.conf yapılandırma dosyasını işleyin
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
 deodexer_oat2dex_marshmallow_and_above=Android marshmallow ve üst sürüm kodunu çözmek için oat2dex.jar kullan
