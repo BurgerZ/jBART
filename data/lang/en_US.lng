@@ -72,6 +72,7 @@ deodexer_rom_api=ROM API
 deodexer_deodex_folder=Deodex %s
 deodexer_use_inline_txt=Use inline.txt methods table (-T option). Useful for MT/MTK roms
 deodexer_use_inline_txt_description=<html>You can use deodexerant binary to get your own inline.txt from your device <br>(then just copy inline.txt to the jbart settings directory)
+deodexer_process_deletefiles_before_deodex=Process deletefiles.conf config file before deodexing
 deodexer_baksmali=Baksmali:
 deodexer_smali=Smali:
 deodexer_oat2dex_marshmallow_and_above=Use oat2dex.jar to deodex Android Marshmallow and above
