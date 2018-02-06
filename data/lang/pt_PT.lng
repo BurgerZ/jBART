@@ -32,11 +32,11 @@ FileChooser.newFolderToolTipText=Nova pasta
 FileChooser.newFolderAccessibleName=Nova pasta
 FileChooser.listViewButtonToolTipText=Mostrar lista
 FileChooser.listViewButtonAccessibleName=Mostrar lista
-FileChooser.detailsViewButtonToolTipText=Detalhes
-FileChooser.detailsViewButtonAccessibleName=Detalhes
+FileChooser.detailsViewButtonToolTipText=Mais
+FileChooser.detailsViewButtonAccessibleName=Mais
 FileChooser.fileNameLabelText=Nome do ficheiro
 FileChooser.filesOfTypeLabelText=Tipo de ficheiros
-FileChooser.fileNameHeaderText=Name
+FileChooser.fileNameHeaderText=Nome
 FileChooser.fileSizeHeaderText=Tamanho do ficheiro
 FileChooser.fileTypeHeaderText=Tipo de ficheiro
 FileChooser.fileDateHeaderText=Data do ficheiro
@@ -47,8 +47,8 @@ FileChooser.openButtonText=Abrir
 FileChooser.openButtonToolTipText=Abrir
 FileChooser.saveButtonText=Guardar
 FileChooser.saveButtonToolTipText=Guardar
-FileChooser.updateButtonText=Actualizar
-FileChooser.updateButtonToolTipText=Actualizar
+FileChooser.updateButtonText=Atualizar
+FileChooser.updateButtonToolTipText=Atualizar
 FileChooser.helpButtonText=Ajuda
 FileChooser.helpButtonToolTipText=Ajuda
 FileChooser.acceptAllFileFilterText=Todos os ficheiros
@@ -67,7 +67,7 @@ menu_title_about=Acerca de
 
 #deodexer panel
 deodexer_rom_file=Ficheiro ROM
-deodexer_select_rom_file=Seleccionar ficheiro ROM (*.zip)
+deodexer_select_rom_file=Selecionar ficheiro ROM (*.zip)
 deodexer_rom_api=API da ROM
 deodexer_deodex_folder=Deodexar %s
 deodexer_use_inline_txt=Utilizar métodos inline.txt (-T option). Útil para roms MT/MTK
@@ -81,13 +81,13 @@ deodexer_btn_deodex=Deodex
 #rom file panel
 rom_file_rom_type=Tipo de ROM
 rom_file_rom_file=Ficheiro ROM
-rom_file_select_rom_file=Seleccionar ficheiro ROM (*.zip)
+rom_file_select_rom_file=Selecionar ficheiro ROM (*.zip)
 rom_file_repo_main=Tradução
 rom_file_repo_extra=Ficheiros
 rom_file_repo_xml_patches=Patches XML
-rom_file_selected_repositories=Repositórios seleccionados:
+rom_file_selected_repositories=Repositórios selecionados:
 rom_file_use_patches=Utilizar patches (Patches NXT para smali, etc.)
-rom_file_local_patches=Utilizar patches locais (da directoria data/patches)
+rom_file_local_patches=Utilizar patches locais (da pasta data/patches)
 rom_file_auto_deodex=Auto Deodexar ROM
 rom_file_save_deodexed_rom=Guardar ROM deodexada
 rom_file_auto_compile=Auto Compilar ROM
@@ -102,9 +102,9 @@ use_hex_config=Utilizar hex.filelist.conf
 
 #translation parser panel
 translation_parser_decompiled_apk_dir=Directoria das APK
-translation_parser_select_decompiled_apk_dir=Seleccionar directoria com of ficheiros apk decompilados
+translation_parser_select_decompiled_apk_dir=Selecionar pasta com os ficheiros apk decompilados
 translation_parser_translation_dir=Tradução
-translation_parser_select_translation_dir=Seleccionar directoria com of ficheiros apk traduzidos
+translation_parser_select_translation_dir=Selecionar pasta com os ficheiros apk traduzidos
 translation_parser_language=Idioma
 translation_parser_language_original=Original:
 translation_parser_language_translation=Tradução:
@@ -118,7 +118,7 @@ translation_parser_btn_parse=Analisar
 
 #single file panel
 single_file_file=Ficheiro
-single_file_select_file=Seleccionar ficheiro apk ou jar (ou ficheiro ROM zip para assinar)
+single_file_select_file=Selecionar ficheiro apk ou jar (ou ficheiro ROM zip para assinar)
 single_file_apktool=Apktool
 single_file_device_name=Nome do dispositivo
 single_file_device_name_description=(Utilizado para procurar patches a aplicar)
@@ -139,16 +139,16 @@ single_file_btn_compile=Compilar
 
 #ota creator panel
 ota_creator_old_rom=ROM antiga
-ota_creator_select_old_rom=Seleccionar o ficheiro da ROM antiga (*.zip)
+ota_creator_select_old_rom=Selecionar o ficheiro da ROM antiga (*.zip)
 ota_creator_new_rom=ROM nova
-ota_creator_select_new_rom=Seleccionar o ficheiro da ROM nova (*.zip)
+ota_creator_select_new_rom=Selecionar o ficheiro da ROM nova (*.zip)
 ota_creator_out_folder=Pasta de saída
-ota_creator_select_out_folder=Seleccionar pasta de saída
+ota_creator_select_out_folder=Selecionar pasta de saída
 ota_creator_make_ota=Criar OTA
 
 #kernel tools panel
 kerneltools_kernel_file=Ficheiro Kernel
-kerneltools_select_kernel_file=Seleccionar ficheiro kernel (boot.img, recovery.img)
+kerneltools_select_kernel_file=Selecionar ficheiro kernel (boot.img, recovery.img)
 kerneltools_btn_pack=Compactar
 kerneltools_btn_unpack=Descompactar
 
@@ -167,8 +167,8 @@ settings_decompile_all_apks=Decompilar todos os apks da ROM
 settings_decompile_smali_all_apks=Decompilar os recursos de cada apk na ROM (smali)
 settings_zipalign=Zipalign apks/jars (importante para OTA)
 settings_sign_rom=Assinar ficheiro ROM depois de compilar
-settings_delete_prj_directory=Eliminar projecto depois de compilar
-settings_remember_recents=Memorizar os últimos ficheiros e directorias abertos
+settings_delete_prj_directory=Eliminar projeto depois de compilar
+settings_remember_recents=Memorizar últimos ficheiros e pastas abertas
 settings_interface_language=<html>Interface<br>idioma
 
 #about panel
@@ -184,4 +184,4 @@ about_licence_info=Licença:
 common_content_blocked=Conteúdo bloqueado!
 common_no_rights=Não tem permissão para ver o conteúdo oculto
 updater_btn_download=Transferir
-updater_update_available=Actualização disponível!
+updater_update_available=Atualização disponível!
