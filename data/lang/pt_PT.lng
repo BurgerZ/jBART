@@ -16,7 +16,7 @@ main_errors=Erros:
 logger_turn_off_loging=Desligar registo (pode melhorar desempenho)
 logger_write_log_to_console=Gravar registo na consola (pode atrasar o processo de compilação)
 logger_write_log_to_file=Gravar registo de entrada no ficheiro
-logger_write_log_to_file_with_buffer=Não permitir registo no ficheiro
+logger_write_log_to_file_with_buffer=Não permitir registo de entrada no ficheiro
 logger_write_log_to_file_with_buffer_description=<html><b>Aviso:</b> é mais rápido, mas as entradas de registo serão perdidas em JVM crash
 
 #progressbar
@@ -101,7 +101,7 @@ rom_file_btn_extract_zip=Extrair zip
 use_hex_config=Utilizar hex.filelist.conf
 
 #translation parser panel
-translation_parser_decompiled_apk_dir=Directoria das APK
+translation_parser_decompiled_apk_dir=Pasta dos APK
 translation_parser_select_decompiled_apk_dir=Selecionar pasta com os ficheiros apk decompilados
 translation_parser_translation_dir=Tradução
 translation_parser_select_translation_dir=Selecionar pasta com os ficheiros apk traduzidos
