@@ -1,0 +1,187 @@
+langpack=Tiếng việt
+
+#main
+main_loading_args=Đang tải %s
+main_default=Mặc định
+main_dialog_title_information=Thông tin
+main_done=Xong!
+main_out_rom=Rom:
+main_md5=MD5:
+main_elapsed=Thời gian trôi qua:
+main_decompilation_elapsed=Dịch ngược:
+main_compilation_elapsed=Biên soạn:
+main_errors=Lỗi:
+
+#Logger
+logger_turn_off_loging=Tắt nhật ký (có thể cải thiện hiệu suất)
+logger_write_log_to_console=Ghi nhật ký vào giao diện điều khiển (có thể làm chậm quá trình xây dựng)
+logger_write_log_to_file=Ghi nhật ký vào Tệp
+logger_write_log_to_file_with_buffer=Buffered ghi log vào Tệp
+logger_write_log_to_file_with_buffer_description=<html><b>Cảnh báo:</b> nhanh hơn, nhưng log có thể bị mất khi JVM lỗi
+
+#progressbar
+
+#file dialogs
+FileChooser.lookInLabelText=Nhìn vào:
+FileChooser.saveInLabelText=Lưu vào:
+FileChooser.upFolderToolTipText=Up Folder
+FileChooser.upFolderAccessibleName=Up Folder
+FileChooser.homeFolderToolTipText=Home Folder
+FileChooser.homeFolderAccessibleName=Home Folder
+FileChooser.newFolderToolTipText=Thư mục mới
+FileChooser.newFolderAccessibleName=Thư mục mới
+FileChooser.listViewButtonToolTipText=Danh sách xem
+FileChooser.listViewButtonAccessibleName=Danh sách xem
+FileChooser.detailsViewButtonToolTipText=Chi tiết
+FileChooser.detailsViewButtonAccessibleName=Chi tiết
+FileChooser.fileNameLabelText=Tên Tệp
+FileChooser.filesOfTypeLabelText=Dạng Tệp
+FileChooser.fileNameHeaderText=Tên
+FileChooser.fileSizeHeaderText=Kích thước Tệp
+FileChooser.fileTypeHeaderText=Định dạng Tệp
+FileChooser.fileDateHeaderText=Ngày tạo
+FileChooser.fileAttrHeaderText=File Attr
+FileChooser.cancelButtonText=Huỷ
+FileChooser.cancelButtonToolTipText=Huỷ
+FileChooser.openButtonText=Mở
+FileChooser.openButtonToolTipText=Mở
+FileChooser.saveButtonText=Lưu
+FileChooser.saveButtonToolTipText=Lưu
+FileChooser.updateButtonText=Cập nhật
+FileChooser.updateButtonToolTipText=Cập nhật
+FileChooser.helpButtonText=Trợ giúp
+FileChooser.helpButtonToolTipText=Trợ giúp
+FileChooser.acceptAllFileFilterText=Tất cả các Tệp
+
+#left menu
+menu_title_deodexer=Deodexer
+menu_title_rom_file=Tệp ROM
+menu_title_translation_parser=Phân tích dịch
+menu_title_patches=bản vá lỗi lỗi
+menu_title_single_file=Tệp đơn lẻ
+menu_title_ota_creator=Tạo OTA
+menu_title_kernel_tools=Công cụ kernel
+menu_title_settings=Cài đặt
+menu_title_logs=Nhật ký
+menu_title_about=Thông tin
+
+#deodexer panel
+deodexer_rom_file=Tệp ROM
+deodexer_select_rom_file=Chọn tệp ROM (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_folder=Deodex %s
+deodexer_use_inline_txt=Sử dụng phương pháp bảng inline.txt (-T tuỳ chọn). Hữu ích cho MT/MTK roms
+deodexer_use_inline_txt_description=<html>Bạn có thể sử dụng nhị phân deodexerant để lấy inline.txt của riêng bạn từ thiết bị của bạn <br>(sau đó chỉ cần sao chép inline.txt vào thư mục cài đặt jbart)
+deodexer_process_deletefiles_before_deodex=Chạy deletefiles.conf để xoá tệp trước khi deodexing
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_oat2dex_marshmallow_and_above=Sử dụng oat2dex.jar để deodex từ Android Marshmallow hoặc cao hơn
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=Kiểu ROM
+rom_file_rom_file=Tệp ROM
+rom_file_select_rom_file=Chọn Tệp ROM (*.zip)
+rom_file_repo_main=Từ điển
+rom_file_repo_extra=Tập tin
+rom_file_repo_xml_patches=Vá lỗi XML
+rom_file_selected_repositories=Đã chọn:
+rom_file_use_patches=Sử dụng bản vá lỗi (bản vá NXT cho smali, etc.)
+rom_file_local_patches=Sử dụng bản vá lỗi cục bộ (từ data/patches)
+rom_file_auto_deodex=Tự động Deodex ROM
+rom_file_save_deodexed_rom=Lưu deodexed ROM
+rom_file_auto_compile=Tự động biên soạn ROM
+rom_file_btn_compile=Biên soạn
+rom_file_btn_recompile=Dịch ngược
+rom_file_btn_decompile=Dịch ngược
+rom_file_btn_sign=Ký tên
+rom_file_btn_patch=Vá lỗi
+rom_file_btn_build_zip=Xây dựng zip
+rom_file_btn_extract_zip=Giải nén zip
+use_hex_config=Sử dụng hex.filelist.conf
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=Thư mục
+translation_parser_select_decompiled_apk_dir=Chọn thư mục với tệp *.apk đã được dịch ngược
+translation_parser_translation_dir=Thư mục
+translation_parser_select_translation_dir=Chọn thư mục với tệp *.apk đã được dịch
+translation_parser_language=Ngôn ngữ
+translation_parser_language_original=Gốc:
+translation_parser_language_translation=Cần dịch:
+translation_parser_delete_obsolete=Xóa các mục đã lỗi thời khỏi bản dịch (xây dựng lại)
+translation_parser_delete_obsolete_description=Cảnh báo: tùy chọn này sẽ viết lại các Tệp dịch của bạn!
+translation_parser_skipnotindefault=Bỏ qua tất cả các mục "không có trong mặc định" (các mục không có trong các tệp gốc)
+translation_parser_skipnotindefault_description=<html><b>Đã kiểm tra:</b> tất cả các mục được dịch không có trong tệp xml gốc sẽ bị bỏ qua (sẽ không được thêm vào bản dịch hoặc trình phân tích cú pháp)<br><b>Không kiểm tra:</b> chỉ các mục từ cấu hình <b>translation.parser.skipnotindefault.conf</b> sẽ bị bỏ qua
+translation_parser_btn_parse=Phân tích cú pháp
+
+#patches panel
+
+#single file panel
+single_file_file=Tệp
+single_file_select_file=Chọn các tệp apk hoặc jar (hoặc ROM zip để ký tên)
+single_file_apktool=Apktool
+single_file_device_name=Tên thiết bị
+single_file_device_name_description=(Sử dụng để tìm kiếm các bản vá lỗi để áp dụng)
+single_file_decompile_smali=Dịch ngược classes.dex (smali)
+single_file_install_frames=Cài đặt frameworks (ở data/frameworks_single)
+single_file_use_original_manifest=Sử dụng AndroidManifest.xml gốc
+single_file_sign_after_compile=Ký tên tệp sau khi biên soạn
+single_file_auto_patch=Tự động áp dụng các bản vá lỗi lỗi ở quá trình dịch ngược (từ data/patches)
+single_file_aapt_5=Sử dụng nhị phân aapt cho android 5.x (api > 20)
+single_file_verbose=Biên soạn đầu ra
+single_file_write_debug_info=Ghi thông tin gỡ lỗi trong smali (.local, .param, .line, etc.)
+single_file_keep_broken_res=Giữ tài nguyên bị hỏng. Bạn sẽ phải sửa tất cả các lỗi bằng tay trước khi xây dựng
+single_file_btn_patch=Vá lỗi
+single_file_btn_deodex=Deodex
+single_file_btn_sign=Ký tên
+single_file_btn_decompile=Dịch ngược
+single_file_btn_compile=Biên soạn
+
+#ota creator panel
+ota_creator_old_rom=ROM cũ
+ota_creator_select_old_rom=Chọn tệp ROM cũ (*.zip)
+ota_creator_new_rom=ROM mới
+ota_creator_select_new_rom=Chọn tệp ROM mới (*.zip)
+ota_creator_out_folder=Đầu ra
+ota_creator_select_out_folder=Chọn thư mục đầu ra
+ota_creator_make_ota=Tạo OTA
+
+#kernel tools panel
+kerneltools_kernel_file=Tệp Kernel
+kerneltools_select_kernel_file=Chọn tệp kernel (boot.img, recovery.img)
+kerneltools_btn_pack=Đóng gói
+kerneltools_btn_unpack=Giải nén
+
+#settings panel
+settings_changelog=Nhật ký thay đổi:
+settings_language=Ngôn ngữ
+settings_timezone=Múi giờ
+settings_lang_tz_description=Giá trị này sẽ được ghi vào tệp /system/build.prop
+settings_alt_rom_name=Thay thế đặt tên ROM
+settings_alt_rom_name_description=<html>Đã kiểm tra: tải quy tắc đặt tên từ <b>data/settings/alt_rom_name.conf</b><p>Không kiểm tra: "bz_"+original_rom_name</html>
+settings_repo_download_main=Tải xuống từ điển dịch chính
+settings_repo_download_extra=Tải xuống từ điển bổ sung (tệp thay thế)
+settings_repo_download_xml_patches=Tải xuống các bản vá XML
+settings_repo_redownload=Tải xuống lại các bản dịch (mỗi lần)
+settings_decompile_all_apks=Dịch ngược tất cả các APK trong ROM
+settings_decompile_smali_all_apks=Dịch ngược smali của từng APK trong ROM
+settings_zipalign=Zipalign apks/jars (quan trọng cho OTA)
+settings_sign_rom=Ký tên tệp ROM sau khi đã biên soạn lại
+settings_delete_prj_directory=Xóa thư mục dự án sau khi biên soạn
+settings_remember_recents=Nhớ các tập tin và thư mục đã mở gần đây
+settings_interface_language=<html>Giao diện<br>ngôn ngữ
+
+#about panel
+about_author=Tác giả:
+about_graphics=Đồ hoạ:
+about_design_components=Các thành phần Java:
+about_tests_and_support=Thử nghiệm và hỗ trợ:
+about_libraries=Thư viện và các phần của mã nguồn:
+about_donation=Ủng hộ:
+about_licence_info=Giấy phép:
+
+#common
+common_content_blocked=Nội dung bị chắn!
+common_no_rights=Bạn không có quyền để xem nội dung ẩn
+updater_btn_download=Tải xuống
+updater_update_available=Cập nhật có sẵn!
