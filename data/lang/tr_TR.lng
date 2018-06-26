@@ -14,7 +14,7 @@ main_errors=Hatalar:
 
 #Logger
 logger_turn_off_loging=Günlük kaydını kapat (Performansı artırabilir)
-logger_write_log_to_console=Konsola günlük kaydını yaz (İnşa sürecini yavaşlatabilir)
+logger_write_log_to_console=Konsola günlük kaydını yaz (Toplama sürecini yavaşlatabilir)
 logger_write_log_to_file=Günlük kaydını dosyaya yaz
 logger_write_log_to_file_with_buffer=Arabellek günlük kaydını dosyaya yaz
 logger_write_log_to_file_with_buffer_description=<html><b>Uyarı:</b> Günlük kayıtları JVM çöktüğünde kaybolacaktır
@@ -55,10 +55,10 @@ FileChooser.acceptAllFileFilterText=Tüm dosyalar
 
 #left menu
 menu_title_deodexer=Deodexer
-menu_title_rom_file=Rom dosyası
+menu_title_rom_file=Rom düzenleme
 menu_title_translation_parser=Çeviri ayrıştırıcı
 menu_title_patches=Yamalar
-menu_title_single_file=Tek dosya
+menu_title_single_file=Uygulama parçalama
 menu_title_ota_creator=Ota oluşturucu
 menu_title_kernel_tools=Çekirdek araçları
 menu_title_settings=Ayarlar
@@ -131,7 +131,7 @@ single_file_aapt_5=Android 5.x için AAPT binary kullan (API> 20)
 single_file_verbose=Ayrıntılı toplama çıktısı
 single_file_write_debug_info=Smali ufak hata ayıklama bilgisi dışında yaz (.local, .param, .line, etc.)
 single_file_keep_broken_res=Bozuk kaynakları tut. Yapı öncesi el ile tüm hataları düzeltme zorunda kalacaksınız
-single_file_btn_patch=Yama dosyaları
+single_file_btn_patch=Yamaları uygula
 single_file_btn_deodex=Deodex
 single_file_btn_sign=İmzala
 single_file_btn_decompile=Parçala
