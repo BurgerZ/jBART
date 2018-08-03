@@ -1,0 +1,187 @@
+langpack=Polski
+
+#main
+main_loading_args=Ładowanie %s
+main_default=Domyślne
+main_dialog_title_information=Informacja
+main_done=Zrobione!
+main_out_rom=ROM:
+main_md5=MD5:
+main_elapsed=Czas trwania:
+main_decompilation_elapsed=Dekompilacja:
+main_compilation_elapsed=Kompilacja:
+main_errors=Błędy:
+
+#Logger
+logger_turn_off_loging=Wyłącz logowanie (może poprawić doświadczenie)
+logger_write_log_to_console=Zapisuj log do konsoli (może spowolnić budowanie)
+logger_write_log_to_file=Zapisuj log do pliku
+logger_write_log_to_file_with_buffer=Zapisuj zbuforowane logi do pliku
+logger_write_log_to_file_with_buffer_description=<html><b>Uwaga:</b> szybsze, ale logi będą utracone przy crashu JVM
+
+#progressbar
+
+#file dialogs
+FileChooser.lookInLabelText=Lokalizacja:
+FileChooser.saveInLabelText=Zapisz w:
+FileChooser.upFolderToolTipText=Folder wyżej
+FileChooser.upFolderAccessibleName=Folder wyżej
+FileChooser.homeFolderToolTipText=Folder domowy
+FileChooser.homeFolderAccessibleName=Folder domowy
+FileChooser.newFolderToolTipText=Nowy folder
+FileChooser.newFolderAccessibleName=Nowy folder
+FileChooser.listViewButtonToolTipText=Widok listy
+FileChooser.listViewButtonAccessibleName=Widok listy
+FileChooser.detailsViewButtonToolTipText=Szczegóły
+FileChooser.detailsViewButtonAccessibleName=Szczegóły
+FileChooser.fileNameLabelText=Nazwa pliku
+FileChooser.filesOfTypeLabelText=Typy plików
+FileChooser.fileNameHeaderText=Nazwa
+FileChooser.fileSizeHeaderText=Rozmiar pliku
+FileChooser.fileTypeHeaderText=Typ pliku
+FileChooser.fileDateHeaderText=Data pliku
+FileChooser.fileAttrHeaderText=Atr. pliku
+FileChooser.cancelButtonText=Anuluj
+FileChooser.cancelButtonToolTipText=Anuluj
+FileChooser.openButtonText=Otwórz
+FileChooser.openButtonToolTipText=Otwórz
+FileChooser.saveButtonText=Zapisz
+FileChooser.saveButtonToolTipText=Zapisz
+FileChooser.updateButtonText=Update
+FileChooser.updateButtonToolTipText=Update
+FileChooser.helpButtonText=Pomoc
+FileChooser.helpButtonToolTipText=Pomoc
+FileChooser.acceptAllFileFilterText=Wszystkie pliki
+
+#left menu
+menu_title_deodexer=Deodexer
+menu_title_rom_file=Plik ROMu
+menu_title_translation_parser=Parser tłumaczenia
+menu_title_patches=Patche
+menu_title_single_file=Pojedynczy plik
+menu_title_ota_creator=Tworzenie OTA
+menu_title_kernel_tools=Narzędzia kernela
+menu_title_settings=Ustawienia
+menu_title_logs=Logi
+menu_title_about=O programie
+
+#deodexer panel
+deodexer_rom_file=Plik ROMu
+deodexer_select_rom_file=Wybierz plik ROMu (*.zip)
+deodexer_rom_api=ROM API
+deodexer_deodex_folder=Deodexuj %s
+deodexer_use_inline_txt=Użyj tablicy metod inline.txt (opcja -T). Użyteczne dla ROMów MT/MTK
+deodexer_use_inline_txt_description=<html>Możesz użyć binarek deodexarent, aby uzyskać własny plik inline.txt z urządzenia<br>(następnie po prostu skopiuj go do katalogu ustawień jBART)
+deodexer_process_deletefiles_before_deodex=Przetwórz plik konfiguracji deletefiles.conf przed deodexowaniem
+deodexer_baksmali=Baksmali:
+deodexer_smali=Smali:
+deodexer_oat2dex_marshmallow_and_above=Użyj oat2dex.jar do deodexowania Androida Marshmallow i wyżej
+deodexer_btn_deodex=Deodex
+
+#rom file panel
+rom_file_rom_type=Typ ROMu
+rom_file_rom_file=Plik ROMu
+rom_file_select_rom_file=Wybierz plik ROMu (*.zip)
+rom_file_repo_main=Tłumaczenie
+rom_file_repo_extra=Pliki
+rom_file_repo_xml_patches=Patche XML
+rom_file_selected_repositories=Wybrane repozytoria:
+rom_file_use_patches=Użyj patchy (patche NXT dla smali itd.)
+rom_file_local_patches=Użyj lokalnych patchy (z folderu data/patches)
+rom_file_auto_deodex=Autodeodexowanie ROM
+rom_file_save_deodexed_rom=Zapisz zdeodexowany ROM
+rom_file_auto_compile=Autokompilacja ROM
+rom_file_btn_compile=Kompiluj
+rom_file_btn_recompile=Rekompiluj
+rom_file_btn_decompile=Dekompiluj
+rom_file_btn_sign=Podpisz
+rom_file_btn_patch=Patchuj pliki
+rom_file_btn_build_zip=Zbuduj zip
+rom_file_btn_extract_zip=Wypakuj zip
+use_hex_config=Użyj hex.filelist.conf
+
+#translation parser panel
+translation_parser_decompiled_apk_dir=Katalog APK
+translation_parser_select_decompiled_apk_dir=Wybierz katalog z zdekompilowanymi plikami *.apk
+translation_parser_translation_dir=Tłumaczenie
+translation_parser_select_translation_dir=Wybierz katalog z przetłumaczonymi plikami *.apk
+translation_parser_language=Język
+translation_parser_language_original=Oryginalny:
+translation_parser_language_translation=Tłumaczenie:
+translation_parser_delete_obsolete=Usuń nieaktualne elementy z tłumaczenia (przebuduj)
+translation_parser_delete_obsolete_description=UWAGA: ta opcja nadpisze Twoje pliki tłumaczenia!
+translation_parser_skipnotindefault=Pomiń wszystkie "niedomyślne" rzeczy (nieistniejące w oryginale)
+translation_parser_skipnotindefault_description=<html><b>Zaznaczone:</b> wszystkie przetłumaczone elementy, które nie są w oryginalnych plikach xml, zostaną pominięte (nie zostaną dodane do tłumaczenia lub pliku wyjściowego parsera)<br><b>Odznaczone:</b> tylko elementy z pliku <b>translation.parser.skipnotindefault.conf</b> będą pominięte
+translation_parser_btn_parse=Parsuj
+
+#patches panel
+
+#single file panel
+single_file_file=Plik
+single_file_select_file=Wybierz plik apk lub jar (albo zip ROMu do podpisania)
+single_file_apktool=Apktool
+single_file_device_name=Nazwa urządzenia
+single_file_device_name_description=(Używane do szukania patchy do zastosowania)
+single_file_decompile_smali=Dekompiluj źródła (smali)
+single_file_install_frames=Instaluj frameworki (umieść odpowiednie apk w data/frameworks_single)
+single_file_use_original_manifest=Użyj oryginalnego AndroidManifest.xml
+single_file_sign_after_compile=Podpisz plik po kompilacji (dla aplikacji niesystemowych, albo zostaw oryginalny)
+single_file_auto_patch=Autostosowanie patchy w fazie dekompilacji (z katalogu data/patches)
+single_file_aapt_5=Użyj binarek aapt dla Androida 5.x (api > 20)
+single_file_verbose=Verbose compiling output
+single_file_write_debug_info=Wypisuj informacje debugowania w smali (.local, .param, .line, etc.)
+single_file_keep_broken_res=Zachowaj zepsute resources. Będziesz musiał naprawić wszystkie błędy ręcznie przed budowaniem
+single_file_btn_patch=Patchuj pliki
+single_file_btn_deodex=Deodexuj
+single_file_btn_sign=Podpisz
+single_file_btn_decompile=Dekompilacja
+single_file_btn_compile=Kompilacja
+
+#ota creator panel
+ota_creator_old_rom=Stary ROM
+ota_creator_select_old_rom=Wybierz stary plik ROMu (*.zip)
+ota_creator_new_rom=Nowy ROM
+ota_creator_select_new_rom=Wybierz plik nowego ROMu (*.zip)
+ota_creator_out_folder=Folder wyjściowy
+ota_creator_select_out_folder=Wybierz folder wyjściowy
+ota_creator_make_ota=Utwórz OTA
+
+#kernel tools panel
+kerneltools_kernel_file=Plik kernela
+kerneltools_select_kernel_file=Wybierz plik kernela (boot.img, recovery.img)
+kerneltools_btn_pack=Spakuj
+kerneltools_btn_unpack=Wypakuj
+
+#settings panel
+settings_changelog=Lista zmian:
+settings_language=Język
+settings_timezone=Strefa czasowa
+settings_lang_tz_description=Te wartości będą zapisywane do pliku /system/build.prop
+settings_alt_rom_name=Alternatywne nazwanie wyjściowych ROMów
+settings_alt_rom_name_description=<html>Zaznaczone: ładowanie zasad nazwania z <b>data/settings/alt_rom_name.conf</b><p>Odznaczone: "bz_"+original_rom_name</html>
+settings_repo_download_main=Pobierz repozytorium tłumaczenia Main
+settings_repo_download_extra=Pobierz repozytorium Extra (zamiana plików)
+settings_repo_download_xml_patches=Pobierz repozytorium patchy XML
+settings_repo_redownload=Pobierz repozytoria ponownie (za każdym razem)
+settings_decompile_all_apks=Zdekompiluj wszystkie APK w ROMie
+settings_decompile_smali_all_apks=Zdekompiluj src dla każdej aplikacji w ROMie (smali)
+settings_zipalign=Zipalign apks/jars (ważne dla OTA)
+settings_sign_rom=Podpisz plik ROMu po kompilacji
+settings_delete_prj_directory=Usuń katalog projektu po kompilacji
+settings_remember_recents=Zapamiętuj ostatnio otwarte pliki i katalogi
+settings_interface_language=<html>Język<br>interfejsu
+
+#about panel
+about_author=Autor:
+about_graphics=Grafika:
+about_design_components=Komponenty Java:
+about_tests_and_support=Testy i wsparcie:
+about_libraries=Biblioteki i części kodu źródłowego:
+about_donation=Dotacje:
+about_licence_info=Licencja:
+
+#common
+common_content_blocked=Treść zablokowana!
+common_no_rights=Nie masz uprawnień do widoku ukrytej treści
+updater_btn_download=Pobierz
+updater_update_available=Dostępna aktualizacja!
