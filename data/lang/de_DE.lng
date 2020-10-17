@@ -22,7 +22,7 @@ logger_write_log_to_file_with_buffer_description=<html><b>Warnung:</b> schneller
 #progressbar
 
 #file dialogs
-FileChooser.lookInLabelText=Look in:
+FileChooser.lookInLabelText=Nachsehen in:
 FileChooser.saveInLabelText=Speichern in:
 FileChooser.upFolderToolTipText=Ordner hoch
 FileChooser.upFolderAccessibleName=Ordner runter
